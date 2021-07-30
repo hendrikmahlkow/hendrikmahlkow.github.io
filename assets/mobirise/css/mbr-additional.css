@@ -703,6 +703,29 @@ a {
 .cid-s48vnjULo4 .mbr-section-subtitle {
   text-align: left;
 }
+.cid-sEFKJxUqqL {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-sEFKJxUqqL ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 2.5rem;
+}
+.cid-sEFKJxUqqL li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.cid-sEFKJxUqqL ul li::before {
+  position: absolute;
+  left: -1.6rem;
+  content: "\2022";
+  color: #000000;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 1.6rem;
+}
 .cid-sC0rDcKEHN {
   padding-top: 0rem;
   padding-bottom: 5rem;
