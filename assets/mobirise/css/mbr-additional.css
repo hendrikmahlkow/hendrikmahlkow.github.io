@@ -1235,6 +1235,25 @@ a {
     left: -1rem;
   }
 }
+.cid-ttgFolhVhV {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #000000;
+}
+@media (max-width: 991px) {
+  .cid-ttgFolhVhV .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-ttgFolhVhV .row {
+  flex-direction: row-reverse;
+}
+.cid-ttgFolhVhV img {
+  width: 100%;
+}
+.cid-ttgFolhVhV .mbr-description {
+  text-align: left;
+}
 .cid-tsTmtDtw2v {
   padding-top: 6rem;
   padding-bottom: 6rem;
