@@ -1,0 +1,89 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+
+// Fonts
+$font-family-serif: 'Jost', serif; 
+$font-family-sans-serif: 'Jost', sans-serif;
+$font-family-monospace: 'Jost', monospace;
+
+// Colors
+$light-sage-green: #D1D9CE;
+$dark-sage-green: #98A08D;
+$cream: #FDFBF7;
+$gray: #64605f;
+$black:	#000000;
+$light-gray: #949799;
+$purple: #AE8BD1;
+
+// Base document colors
+//$navbar-bg: $cream; // navbar
+$navbar-fg: $dark-sage-green; // navbar foreground elements
+$navbar-hl: $gray; // highlight color when hovering over navbar links
+//$body-bg: $light-sage-green; // page background 
+//$body-color: $gray; // page text 
+//$footer-bg: $cream; // footer 
+$link-color: $black; // hyperlinks 
+
+// Inline code
+$code-bg: $cream; // inline code background color
+$code-color: $purple; // inline code text color
+
+// Code blocks
+$code-block-bg: $cream; // code block background color
+
+
+/*-- scss:rules --*/
+// add CSS codes directly in this file
+
+// uppercase for sub- headlines
+h2, h3, h4 {
+  text-transform: uppercase;
+  font-weight: 900; /* Sets the font to bold */
+}
+
+// font size
+h1{
+  font-size: 3.6em;
+}
+h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 20px; /* Adds space below the headline */
+  margin-top: 80px;
+}
+h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 60px;
+}
+p, a {
+  font-size: 17px;
+}
+
+// Remove underline from hyperlinks
+a {
+  text-decoration: none;
+}
+
+// Thicker font on hover
+a:hover {
+  text-decoration: underline;
+}
+
+// specific classes
+.landing {
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  min-height: 80vh; // Sets the minimum height tothe full height of the viewport.
+  //background-color: #ff0000; /* Sets the background color to red */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle{
+  font-size: 1.2rem;
+}

@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Hendrik Mahlkow"
+  navbar:
+    title: false # change this to false!
+    left:
+      - href: index.qmd
+        text: Hendrik Mahlkow
+      - about.qmd
+      - research.qmd
+  search: false # no search bar!
+  page-footer: 
+    background: light
+    left: 
+      - "Copyright 2023, Hendrik Mahlkow"
+    right: 
+      - icon: github
+        href: https://github.com/hendrikmahlkow
+      - icon: twitter
+        href: https://twitter.com/HMahlkow
+
+format:
+  html:
+    # see: https://quarto.org/docs/output-formats/html-themes.html#customizing-themes
+    theme: [litera, mystyles.scss] 
+    mainfont: Jost
+    css: styles.css
+
+editor: visual
+
