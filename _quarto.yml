@@ -25,7 +25,7 @@ website:
 format:
   html:
     # see: https://quarto.org/docs/output-formats/html-themes.html#customizing-themes
-    theme: [litera, mystyles.scss] 
+    theme: [litera, styles.scss] 
     mainfont: Jost
     css: styles.css
 
