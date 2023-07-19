@@ -10,4 +10,4 @@
 
 [Customizing Quarto Websites with SCSS](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) (This is also a very cool online presentation! [see](https://github.com/UCSB-MEDS/customizing-quarto-websites))
 
-Store data and images in the `(root)/files` and `images` folder. Do not change anything in `(root)/docs`. This is the place where the rendered files, e.g. html etc., are stored.
+Store data and images in the `(root)/files` and `images` folder. Do not change anything in `(root)/docs`. This is the place where the rendered files, e.g. html etc., are stored. You can use relative paths to link to files, for example `./files/CV.pdf`.
