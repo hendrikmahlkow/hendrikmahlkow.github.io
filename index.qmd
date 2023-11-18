@@ -24,7 +24,7 @@ about:
 
 ## **Research**
 
-My research focusses on international and environmental economics. I am using quantitative trade models based on the so-called gravity equation in order to derive numbers from theory. Therefore I link my educational background as an agricultural economist with my current work at the Trade Policy Task Force of the Kiel Institute for the World Economy. For example, I use global gridded crop models to asses the impact of climate change on agricultural productivities and combine this with a gravity model in order to asses how different trade regimes can compensate negative welfare effects. Furthermore I am interested in econometrics of high-resolution and high-frequency data, e.g. [remote sensing](https://www.hendrikmahlkow.com/assets/files/Datenmonitor_Global.pdf) and [spatial data](https://www.ifw-kiel.de/de/themendossiers/die-corona-krise/datenmonitor-corona-krise/).
+My research focusses on international and environmental economics. I am using quantitative trade models based on the so-called gravity equation in order to derive numbers from theory. Therefore I link my educational background as an agricultural economist with my current work at the Trade Policy Task Force of the Kiel Institute for the World Economy. For example, I use global gridded crop models to asses the impact of climate change on agricultural productivities and combine this with a gravity model in order to asses how different trade regimes can compensate negative welfare effects. Furthermore I am interested in econometrics of high-resolution and high-frequency data, e.g. [remote sensing](https://www.hendrikmahlkow.com/files/Datenmonitor_Global.pdf) and [spatial data](https://www.ifw-kiel.de/de/themendossiers/die-corona-krise/datenmonitor-corona-krise/).
 
 ### **Publications**
 
@@ -32,7 +32,7 @@ My research focusses on international and environmental economics. I am using qu
 
 ### **Working Paper**
 
--   [**How Trade Can Mitigate Climate Change Impacts**](https://www.hendrikmahlkow.com/assets/files/How_Trade_Can_Mitigate_Climate_Change_Impacts_presentation.pdf), *in progress*.
+-   [**How Trade Can Mitigate Climate Change Impacts**](https://www.hendrikmahlkow.com/files/How_Trade_Can_Mitigate_Climate_Change_Impacts_presentation.pdf), *in progress*.
 
 -   **Long-Run Impacts of the Conflict in Ukraine on Food Security in Africa**, *in progress*.
 
@@ -55,7 +55,7 @@ With the knowledge gained through research, I do advisory work for policy makers
 
 I am a research fellow at the [Austrian Institute of Economic Research](https://www.wifo.ac.at/) and the [Kiel Institute for the World Economy](http://www.ifw-kiel.de/). Recently, I made a research visit at the Universtiy of California, Berkeley, as a Fulbright Scholar.
 
-[Download CV](https://www.hendrikmahlkow.com/assets/files/CV.pdf)
+[Download CV](https://www.hendrikmahlkow.com/files/CV.pdf)
 :::
 
 ## Contact
