@@ -5,7 +5,7 @@ title: "CV"
 I am a researcher and economist specializing in international trade and climate change. Currently, I am affiliated with the Austrian Institute of Economic Research and the Kiel Institute for the World Economy. My academic background includes a Master of Science in Agricultural Economics from Humboldt-Universität zu Berlin and ongoing doctoral studies in Quantitative Economics at Christian-Albrechts-Universität zu Kiel. I have also had the privilege of being a Visiting Ph.D. Student at the University of California, Berkeley. From 2022 to 2024, I am a Fellow of the Joachem-Herz Foundation.
 
 ### Current Positions
-|        |                                               |
+|            |                                                           |
 |------------|-----------------------------------------------------------|
 | 2023 -     | Austrian Institute of Economic Research (WIFO), Economist |
 | 2019 -     | Kiel Institute for the World Economy, Economist           |
@@ -13,9 +13,9 @@ I am a researcher and economist specializing in international trade and climate 
 
 
 ### Education
-|        |                                               |
-|------------|-------------------------------------------------------|
-| 2022 - 2023 | University of California, Berkeley, Visiting Researcher     |
-| 2019 - | Kiel University, PhD in Quantitative Economics             |
+|             |                                                           |
+|-------------|-----------------------------------------------------------|
+| 2022 - 2023 | University of California, Berkeley, Visiting Researcher   |
+| 2019 -      | Kiel University, PhD in Quantitative Economics            |
 
 [Download CV](/files/CV.pdf)

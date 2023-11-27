@@ -32,6 +32,8 @@ My research focusses on international and environmental economics. I am using qu
 
 ### **Working Paper**
 
+-   [**The Carbon Footprint of Global Trade Imbalances**](https://www.cesifo.org/en/publications/2023/working-paper/carbon-footprint-global-trade-imbalances) (with Joschka Wanner), *CESifo*, 2023.
+
 -   [**How Trade Can Mitigate Climate Change Impacts**](https://www.hendrikmahlkow.com/files/How_Trade_Can_Mitigate_Climate_Change_Impacts_presentation.pdf), *in progress*.
 
 -   **Long-Run Impacts of the Conflict in Ukraine on Food Security in Africa**, *in progress*.
@@ -53,7 +55,7 @@ With the knowledge gained through research, I do advisory work for policy makers
 ::: {#hero-heading}
 ## Vita
 
-I am a research fellow at the [Austrian Institute of Economic Research](https://www.wifo.ac.at/) and the [Kiel Institute for the World Economy](http://www.ifw-kiel.de/). Recently, I made a research visit at the Universtiy of California, Berkeley, as a Fulbright Scholar.
+I am a research fellow at the [Austrian Institute of Economic Research](https://www.wifo.ac.at/) and the [Kiel Institute for the World Economy](http://www.ifw-kiel.de/). Recently, I made a research visit at the **Universtiy of California, Berkeley**, as a Fulbright Scholar.
 
 [Download CV](https://www.hendrikmahlkow.com/files/CV.pdf)
 :::
