@@ -49,6 +49,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.body.innerHTML = document.body.innerHTML.replace(/==([^=]+)==/g, '<span class="highlight">$1</span>');
+  });
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -109,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>I am a researcher and economist specializing in international trade and climate change. Currently, I am affiliated with the Austrian Institute of Economic Research and the Kiel Institute for the World Economy. My academic background includes a Master of Science in Agricultural Economics from Humboldt-Universität zu Berlin and ongoing doctoral studies in Quantitative Economics at Christian-Albrechts-Universität zu Kiel. I have also had the privilege of being a Visiting Ph.D.&nbsp;Student at the University of California, Berkeley. From 2022 to 2024, I am a Fellow of the Joachem-Herz Foundation.</p>
+<p>I am a researcher and economist specializing in international trade and climate change. I am affiliated with the ==Austrian Institute of Economic Research== and the ==Kiel Institute for the World Economy==. My academic background includes a Master of Science in Agricultural Economics from ==Humboldt-Universität zu Berlin== and ongoing doctoral studies in Quantitative Economics at ==Christian-Albrechts-Universität zu Kiel==. I have also had the privilege of being a Visiting Ph.D.&nbsp;Student at the ==University of California, Berkeley==. From 2022 to 2024, I am a Fellow of the ==Joachem-Herz Foundation==.</p>
 <section id="current-positions" class="level3">
 <h3 class="anchored" data-anchor-id="current-positions">Current Positions</h3>
 <table class="table">

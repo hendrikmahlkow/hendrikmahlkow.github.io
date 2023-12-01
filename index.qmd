@@ -12,6 +12,15 @@ about:
   #   - icon: github
   #     text: Github
   #     href: https://github.com
+  
+# script to highlight text in the body
+include-in-header:
+  text: |
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        document.body.innerHTML = document.body.innerHTML.replace(/==([^=]+)==/g, '<span class="highlight">$1</span>');
+      });
+    </script>
 ---
 
 ::: landing
@@ -42,7 +51,7 @@ My research focusses on international and environmental economics. I am using qu
 
 ## **Advisory Work**
 
-With the knowledge gained through research, I do advisory work for policy makers and institutions, such as the *European Commission*, *European Parliament*, *German Federal Ministry for Economic Affairs*, *German Federal Foreign Office*, *Austrian Federal Ministry of Labour and Economy*, and the *Bertelsmann Foundation*. Dialogue with leading figures at the international, national, and regional level is aimed at incorporating socially relevant issues into my work and providing these actors with a sound informational basis for economic decision-making.
+With the knowledge gained through research, I do advisory work for policy makers and institutions, such as the ==European Commission==, the ==European Parliament==, or the ==German Federal Ministry for Economic Affairs== Dialogue with leading figures at the international, national, and regional level is aimed at incorporating socially relevant issues into my work and providing these actors with a sound informational basis for economic decision-making.
 
 -   [**EU Climate Policy, Climate Clubs and Carbon Border Adjustment**](https://www.bertelsmann-stiftung.de/de/publikationen/publikation/did/eu-klimapolitik-klimaclubs-und-co2-grenzausgleich) (with [Joschka Wanner](http://joschkawanner.de/), [Gabriel Felbermayr](https://www.ifw-kiel.de/experts/ifw/gabriel-felbermayr/) and [Sonja Peterson](https://www.ifw-kiel.de/experts/ifw/sonja-peterson/)), Bertelsmann Foundation.
 
@@ -55,7 +64,7 @@ With the knowledge gained through research, I do advisory work for policy makers
 ::: {#hero-heading}
 ## Vita
 
-I am a research fellow at the [Austrian Institute of Economic Research](https://www.wifo.ac.at/) and the [Kiel Institute for the World Economy](http://www.ifw-kiel.de/). Recently, I made a research visit at the **Universtiy of California, Berkeley**, as a Fulbright Scholar.
+I am a research fellow at the [==Austrian Institute of Economic Research==](https://www.wifo.ac.at/) and the [==Kiel Institute for the World Economy==](http://www.ifw-kiel.de/). Recently, I made a research visit at the ==Universtiy of California, Berkeley==, as a Fulbright Scholar.
 
 [Download CV](https://www.hendrikmahlkow.com/files/CV.pdf)
 :::
