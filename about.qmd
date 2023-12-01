@@ -11,7 +11,7 @@ include-in-header:
     </script>
 ---
 
-I am a researcher and economist specializing in international trade and climate change. I am affiliated with the ==Austrian Institute of Economic Research== and the ==Kiel Institute for the World Economy==. My academic background includes a Master of Science in Agricultural Economics from ==Humboldt-Universität zu Berlin== and ongoing doctoral studies in Quantitative Economics at ==Christian-Albrechts-Universität zu Kiel==. I have also had the privilege of being a Visiting Ph.D. Student at the ==University of California, Berkeley==. From 2022 to 2024, I am a Fellow of the ==Joachem-Herz Foundation==.
+I am a researcher and economist specializing in     international trade and climate change. I am affiliated with the ==Austrian Institute of Economic Research== and the ==Kiel Institute for the World Economy==. My academic background includes a Master of Science in Agricultural Economics from ==Humboldt-Universität zu Berlin== and ongoing doctoral studies in Quantitative Economics at ==Christian-Albrechts-Universität zu Kiel==. I have also had the privilege of being a Visiting Ph.D. Student at the ==University of California, Berkeley==. From 2022 to 2024, I am a Fellow of the ==Joachem-Herz Foundation==.
 
 ### Current Positions
 |            |                                                           |
