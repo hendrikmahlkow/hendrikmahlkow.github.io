@@ -16,7 +16,8 @@ website:
   page-footer: 
     background: light
     left: 
-      - "Copyright 2023, Hendrik Mahlkow"
+    # add the current date to the footer
+      - "Updated on {{< meta date >}}. © Hendrik Mahlkow 1989-2023."
     right: 
       - icon: github
         href: https://github.com/hendrikmahlkow
