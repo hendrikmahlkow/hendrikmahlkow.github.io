@@ -17,7 +17,7 @@ website:
     background: light
     left: 
     # add the current date to the footer
-      - "Updated on {{< meta date >}}. © Hendrik Mahlkow 1989-2023."
+      - "Updated on <span id='current-date'></span>. © Hendrik Mahlkow 1989-2023."
     right: 
       - icon: github
         href: https://github.com/hendrikmahlkow

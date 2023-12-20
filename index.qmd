@@ -1,6 +1,5 @@
 ---
-title: ""
-date: today
+title: "Hendrik Mahlkow"
 about:
   id: hero-heading
   template: solana
@@ -13,14 +12,24 @@ about:
   #   - icon: github
   #     text: Github
   #     href: https://github.com
-  
-# script to highlight text in the body
+
+# script to highlight text in the body and to parse date to footer
 include-in-header:
   text: |
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         document.body.innerHTML = document.body.innerHTML.replace(/==([^=]+)==/g, '<span class="highlight">$1</span>');
       });
+    </script>
+    <script>
+      window.onload = function() {
+        var currentDate = new Date().toLocaleDateString("en-US", { 
+          year: 'numeric', 
+          month: 'long', 
+          day: 'numeric' 
+        });
+        document.getElementById('current-date').textContent = currentDate;
+      };
     </script>
 ---
 

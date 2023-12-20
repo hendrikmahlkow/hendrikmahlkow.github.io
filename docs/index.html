@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-12-20">
 
-<title>Hendrik Mahlkow -</title>
+<title>Hendrik Mahlkow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -53,6 +52,16 @@ ul.task-list li input[type="checkbox"] {
   document.addEventListener("DOMContentLoaded", function() {
     document.body.innerHTML = document.body.innerHTML.replace(/==([^=]+)==/g, '<span class="highlight">$1</span>');
   });
+</script>
+<script>
+  window.onload = function() {
+    var currentDate = new Date().toLocaleDateString("en-US", {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+    document.getElementById('current-date').textContent = currentDate;
+  };
 </script>
 
 
@@ -139,6 +148,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-about-solana column-body">
   <div class="about-entity">
     <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Hendrik Mahlkow</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header> 
       <div class="about-contents"><div id="hero-heading">
 <section id="vita" class="level2">
 <h2 data-anchor-id="vita">Vita</h2>
@@ -406,7 +422,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Updated on December 20, 2023. © Hendrik Mahlkow 1989-2023.
+ Updated on <span id="current-date"></span>. © Hendrik Mahlkow 1989-2023.
   </li>  
 </ul>
     </div>   
