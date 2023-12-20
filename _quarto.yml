@@ -10,6 +10,7 @@ website:
       - href: index.qmd
         text: Hendrik Mahlkow
       - about.qmd
+      - coding.qmd
       - research.qmd
   search: false # no search bar!
   page-footer: 

@@ -1,0 +1,14 @@
+---
+title: "Coding"
+---
+
+Sharing methods and results are a cornerstone of science. The same holds true for code. Below you find some my software projects.
+
+### KITE Model
+
+The *Kiel Institute Trade Policy Evaluation* Model is a quantitative trade model, written in `R` and `C++`. I am one of the core developers of the model. Recently, we made the code open source. It is available on [GitHub](https://github.com/julianhinz/KITE). I developed a simple web-app to explore the model dynamics ([link](https://hendrikmahlkow.shinyapps.io/kite-shiny/)).
+
+### weatheR package
+
+*WeatheR* is an `R` package that downloads and processes historical data from 30.000 weather stations around the world. The package is available on [GitHub](https://github.com/hendrikmahlkow/weatheR).
+

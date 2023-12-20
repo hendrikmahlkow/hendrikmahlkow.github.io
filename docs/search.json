@@ -47,5 +47,26 @@
     "title": "Can trade mitigate climate change impacts?",
     "section": "Contact",
     "text": "Contact\nMail: mail@hendrikmahlkow.com\nTwitter: @HMahlkow\nGitHub: @hendrikmahlkow\n\n\nAustrian Institute of Economic Research\nArsenal Objekt 20A\n1030 Vienna\nAustria\n\nKiel Institute for the World Economy\nKiellinie 66\n24105 Kiel\nGermany"
+  },
+  {
+    "objectID": "coding.html",
+    "href": "coding.html",
+    "title": "Coding",
+    "section": "",
+    "text": "Sharing methods and results are a cornerstone of science. The same holds true for code. Below you find some my software projects.\n\nKITE Model\nThe Kiel Institute Trade Policy Evaluation Model is a quantitative trade model, written in R and C++. I am one of the core developers of the model. Recently, we made the code open source. It is available on GitHub. I developed a simple web-app to explore the model dynamics (link).\n\n\nweatheR package\nWeatheR is an R package that downloads and processes historical data from 30.000 weather stations around the world. The package is available on GitHub."
+  },
+  {
+    "objectID": "coding.html#kite-model",
+    "href": "coding.html#kite-model",
+    "title": "Coding",
+    "section": "KITE Model",
+    "text": "KITE Model\nThe Kiel Institute Trade Policy Evaluation Model is a quantitative trade model, written in R and C++. Recently, we made the code open source. It is available on GitHub. I developed a simple web-app to explore the model dynamics (link)."
+  },
+  {
+    "objectID": "coding.html#weather-package",
+    "href": "coding.html#weather-package",
+    "title": "Coding",
+    "section": "weatheR package",
+    "text": "weatheR package\nweatheR is an R package that downloads and processes historical data from 30.000 weather stations around the world. The package is available on GitHub."
   }
 ]
