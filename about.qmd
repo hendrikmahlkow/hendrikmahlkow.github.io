@@ -30,7 +30,7 @@ I am a researcher and economist specializing in international trade and climate 
 ### Education
 
 |             |                                                                   |
-|----------------|--------------------------------------------------------|
+|--------------|------------------------------------------------------|
 | 2022 - 2023 | **University of California, Berkeley**, Visiting Graduate Student |
 | 2019 -      | **Kiel University**, PhD in Quantitative Economics                |
 | 2014 - 2018 | **Humboldt University of Berlin**, MSc in Agricultural Economics  |
@@ -39,7 +39,7 @@ I am a researcher and economist specializing in international trade and climate 
 ### **Other relevant experience**
 
 |             |                                                             |
-|----------------|-------------------------------------------------------|
+|-------------|------------------------------------------------------|
 | 2017 - 2018 | **Potsdam Institute (PIK)**, Intern Land Use and Resilience |
 
 [Download CV](/files/CV.pdf)
