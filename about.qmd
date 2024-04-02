@@ -34,4 +34,4 @@ I am a researcher and economist specializing in international trade and climate 
 |-------------|------------------------------------------------------|
 | 2017 - 2018 | **Potsdam Institute (PIK)**, Intern Land Use and Resilience |
 
-[Download CV](/src/CV.pdf)
+[Download CV](/files/CV.pdf)
