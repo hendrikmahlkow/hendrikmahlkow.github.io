@@ -21,14 +21,6 @@ include-in-header:
         document.body.innerHTML = document.body.innerHTML.replace(/==([^=]+)==/g, '<span class="highlight">$1</span>');
       });
     </script>
-    <script>
-      document.addEventListener('DOMContentLoaded', (event) => {
-        var currentDate = new Date().toLocaleDateString('en-US', {
-            year: 'numeric', month: 'long', day: 'numeric'
-        });
-        document.getElementById('last-updated-date').textContent = currentDate;
-    });
-    </script>
 ---
 
 ::: landing
@@ -45,11 +37,11 @@ My research focusses on international and environmental economics. I am using qu
 
 ### **Publications**
 
--   [**Macroeconomic structural change likely increases inequality in India more than climate policy**](https://www.doi.org/10.1088/1748-9326/ad34e9) (with Marian Leimbach, Michael Hübler, Lorenzo Montrone, Gabriel Felbermayr, Mathias Kalkuhl, Jan Steckel, Eduard Bukin, Johannes Koch, Marcos Marcolino, & Frank Pothen) *Environmental Research Letters*, forthcoming.
+-   [**Macroeconomic structural change likely increases inequality in India more than climate policy**](https://www.doi.org/10.1088/1748-9326/ad34e9) (with Marian Leimbach, Michael Hübler, Lorenzo Montrone, Gabriel Felbermayr, Mathias Kalkuhl, Jan Steckel, Eduard Bukin, Johannes Koch, Marcos Marcolino, & Frank Pothen) *Environmental Research Letters*, 2024.
 
--   **Long-Run Impacts of the Conflict in Ukraine on Food Security in Africa**, (with Lacina Balma, Tobias Heidland, Sebastian Jävervall, Adamon N. Mukasa and Andinet Woldemichael) *African Development Review*, forthcoming.
+-   [**Long-Run Impacts of the Conflict in Ukraine on Food Security in Africa**](http://doi.org/10.1111/1467-8268.12745), (with Lacina Balma, Tobias Heidland, Sebastian Jävervall, Adamon N. Mukasa and Andinet Woldemichael) *African Development Review*, 2024.
 
--   [**Cutting through the Value Chain: The Long-Run Effects of Decoupling the East from the West**](https://www.ifw-kiel.de/de/publikhttps://link.springer.com/article/10.1007/s10663-022-09561-wationen/kieler-arbeitspapiere/2022/cutting-through-the-value-chain-the-long-run-effects-of-decoupling-the-east-from-the-west-17087/) (with Gabriel Felbermayr and Alexander Sandkamp), *Empirica*, 2023.
+-   [**Cutting through the Value Chain: The Long-Run Effects of Decoupling the East from the West**](https://link.springer.com/article/10.1007/s10663-022-09561-wationen/kieler-arbeitspapiere/2022/cutting-through-the-value-chain-the-long-run-effects-of-decoupling-the-east-from-the-west-17087/) (with Gabriel Felbermayr and Alexander Sandkamp), *Empirica*, 2023.
 
 ### **Working Paper**
 
