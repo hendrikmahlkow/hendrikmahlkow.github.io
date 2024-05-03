@@ -54,14 +54,6 @@ ul.task-list li input[type="checkbox"] {
     document.body.innerHTML = document.body.innerHTML.replace(/==([^=]+)==/g, '<span class="highlight">$1</span>');
   });
 </script>
-<script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    var currentDate = new Date().toLocaleDateString('en-US', {
-        year: 'numeric', month: 'long', day: 'numeric'
-    });
-    document.getElementById('last-updated-date').textContent = currentDate;
-});
-</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -378,7 +370,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Updated on <span id="last-updated-date"></span>. © Hendrik Mahlkow 1989-2023.
+ Updated on 2024-04-02. © Hendrik Mahlkow 1989-2024.
   </li>  
 </ul>
     </div>   

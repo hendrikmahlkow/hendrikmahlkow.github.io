@@ -17,7 +17,7 @@ website:
     background: light
     left: 
     # add the current date to the footer
-      - "Updated on 2024-04-02. © Hendrik Mahlkow 1989-2024."
+      - "Updated on May 3, 2024. © Hendrik Mahlkow 1989-2024."
     right: 
       - icon: github
         href: https://github.com/hendrikmahlkow
