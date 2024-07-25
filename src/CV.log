@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.30)  2 APR 2024 08:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.30)  25 JUL 2024 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,179 +346,204 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]\OT1/phv/m/n/10 PREVIOUS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Overfull \hbox (6.97234pt too wide) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Overfull \hbox (6.97234pt too wide) in paragraph at lines 129--130
 []\OT1/phv/m/n/10 PUBLICATIONS 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 []\OT1/phv/m/n/10 WORKING
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 []\OT1/phv/m/n/10 SELECTED
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 \OT1/phv/m/n/10 WORK-IN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 []\OT1/phv/m/n/10 PROJECT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-
- []
-
-
-Overfull \hbox (5.34259pt too wide) in paragraph at lines 174--175
-[]\OT1/phv/m/n/10 COMMENTARY
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (11.49251pt too wide) in paragraph at lines 204--205
-[]\OT1/phv/m/n/10 CONFERENCES
+Overfull \hbox (5.34259pt too wide) in paragraph at lines 187--188
+[]\OT1/phv/m/n/10 COMMENTARY
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
-
- []
-
-
-Overfull \hbox (11.49251pt too wide) in paragraph at lines 216--217
-[]\OT1/phv/m/n/10 CONFERENCES
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-[]\OT1/phv/m/n/10 MEDIA
+Overfull \hbox (11.49251pt too wide) in paragraph at lines 225--226
+[]\OT1/phv/m/n/10 CONFERENCES
  []
 
 
-Overfull \hbox (3.17245pt too wide) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+[]\OT1/phv/m/n/10 SELECTED
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+\OT1/phv/m/n/10 ME-DIA
+ []
+
+
+Overfull \hbox (3.17245pt too wide) in paragraph at lines 247--248
 []\OT1/phv/m/n/10 PPEARANCE 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+[]\OT1/phv/m/n/10 SELECTED
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+\OT1/phv/m/n/10 ME-DIA
+ []
+
+
+Overfull \hbox (3.17245pt too wide) in paragraph at lines 270--271
+[]\OT1/phv/m/n/10 PPEARANCE 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 []\OT1/phv/m/n/10 MENTORED
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 []\OT1/phv/m/n/10 REFEREE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 []\OT1/phv/m/n/10 NON-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 \OT1/phv/m/n/10 ACADEMIC
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
 
 
-Overfull \hbox (12.40237pt too wide) in paragraph at lines 351--352
+Overfull \hbox (12.40237pt too wide) in paragraph at lines 372--373
 []\OT1/phv/m/n/10 PROGRAMMING 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
-
- []
-
-
-Overfull \hbox (3.16257pt too wide) in paragraph at lines 378--379
+Overfull \hbox (3.16257pt too wide) in paragraph at lines 399--400
 []\OT1/phv/m/n/10 REFERENCES 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
-[4] (./CV.aux)
+[5] (./CV.aux)
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9367 strings out of 480247
- 145400 string characters out of 5896151
- 461847 words of memory out of 5000000
+ 9368 strings out of 480247
+ 145406 string characters out of 5896151
+ 455847 words of memory out of 5000000
  27217 multiletter control sequences out of 15000+600000
  473242 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -528,10 +553,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/eurosym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb>
-Output written on CV.pdf (4 pages, 76143 bytes).
+Output written on CV.pdf (5 pages, 77122 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

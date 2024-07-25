@@ -21,5 +21,3 @@ include-in-header:
 ### **Working Paper**
 
 -   [**The Carbon Footprint of Global Trade Imbalances**](https://www.cesifo.org/en/publications/2023/working-paper/carbon-footprint-global-trade-imbalances) (with Joschka Wanner), *CESifo*, 2023.
-
--   [**Climate Change Adaptation: Agricultural Productivity Shocks and Trade Policy Responses**](https://www.hendrikmahlkow.com/files/Productivity_shocks__trade_policy__and_climate_change_adaptation.pdf), *in progress*.
