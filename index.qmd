@@ -31,35 +31,35 @@ include-in-header:
 ```
 :::
 
-## **Research**
+## Research
 
 My research focusses on international and environmental economics. I am using quantitative trade models based on the so-called gravity equation in order to derive numbers from theory. Therefore I link my educational background as an agricultural economist with my current work at the ==Austrian Institute of Economic Research== and the ==Kiel Institute for the World Economy==. For example, I use global gridded crop models to asses the impact of climate change on agricultural productivities and combine this with a gravity model in order to asses how different trade regimes can compensate negative welfare effects. Furthermore I am interested in econometrics of high-resolution and high-frequency data, e.g. [==remote sensing==](https://www.hendrikmahlkow.com/files/Datenmonitor_Global.pdf) and [==spatial data==](https://www.ifw-kiel.de/de/themendossiers/die-corona-krise/datenmonitor-corona-krise/).
 
-### **Publications**
+### Publications
 
--   [**Macroeconomic structural change likely increases inequality in India more than climate policy**](https://www.doi.org/10.1088/1748-9326/ad34e9) (with Marian Leimbach, Michael Hübler, Lorenzo Montrone, Gabriel Felbermayr, Mathias Kalkuhl, Jan Steckel, Eduard Bukin, Johannes Koch, Marcos Marcolino, & Frank Pothen), *Environmental Research Letters*, 2024.
+-   [Macroeconomic structural change likely increases inequality in India more than climate policy](https://www.doi.org/10.1088/1748-9326/ad34e9) (with Marian Leimbach, Michael Hübler, Lorenzo Montrone, Gabriel Felbermayr, Mathias Kalkuhl, Jan Steckel, Eduard Bukin, Johannes Koch, Marcos Marcolino, & Frank Pothen), *Environmental Research Letters*, 2024.
 
--   [**Long-Run Impacts of the Conflict in Ukraine on Food Security in Africa**](http://doi.org/10.1111/1467-8268.12745), (with Lacina Balma, Tobias Heidland, Sebastian Jävervall, Adamon N. Mukasa and Andinet Woldemichael), *African Development Review*, 2024.
+-   [Long-Run Impacts of the Conflict in Ukraine on Food Security in Africa](http://doi.org/10.1111/1467-8268.12745), (with Lacina Balma, Tobias Heidland, Sebastian Jävervall, Adamon N. Mukasa and Andinet Woldemichael), *African Development Review*, 2024.
 
--   [**Cutting through the Value Chain: The Long-Run Effects of Decoupling the East from the West**](https://link.springer.com/article/10.1007/s10663-022-09561-wationen/kieler-arbeitspapiere/2022/cutting-through-the-value-chain-the-long-run-effects-of-decoupling-the-east-from-the-west-17087/), (with Gabriel Felbermayr and Alexander Sandkamp), *Empirica*, 2023.
+-   [Cutting through the Value Chain: The Long-Run Effects of Decoupling the East from the West](https://link.springer.com/article/10.1007/s10663-022-09561-wationen/kieler-arbeitspapiere/2022/cutting-through-the-value-chain-the-long-run-effects-of-decoupling-the-east-from-the-west-17087/), (with Gabriel Felbermayr and Alexander Sandkamp), *Empirica*, 2023.
 
-### **Working Paper**
+### Working Paper
 
--   [**The Carbon Footprint of Global Trade Imbalances**](https://www.cesifo.org/en/publications/2023/working-paper/carbon-footprint-global-trade-imbalances) (with Joschka Wanner), *CESifo*, 2023.
+-   [The Carbon Footprint of Global Trade Imbalances](https://www.cesifo.org/en/publications/2023/working-paper/carbon-footprint-global-trade-imbalances) (with Joschka Wanner), *CESifo*, 2023.
 
--   [**Climate Change Adaptation: Agricultural Productivity Shocks and Trade Policy Responses**](https://www.hendrikmahlkow.com/files/Productivity_shocks__trade_policy__and_climate_change_adaptation.pdf), *in progress*.
+-   [Climate Change Adaptation: Agricultural Productivity Shocks and Trade Policy Responses](https://www.hendrikmahlkow.com/files/Productivity_shocks__trade_policy__and_climate_change_adaptation.pdf), *in progress*.
 
-## **Advisory Work**
+## Advisory Work
 
 With the knowledge gained through research, I do advisory work for policy makers and institutions, such as the ==European Commission==, ==European Parliament==, ==African Development Bank==, or local ministries, such as, the ==German Federal Ministry for Economic Affairs==, ==German Federal Foreign Office==, ==Austrian Ministry for Labour and Economy==. Dialogue with leading figures at the international, national, and regional level is aimed at incorporating socially relevant issues into my work and providing these actors with a sound informational basis for economic decision-making.
 
--   [**EU Climate Policy, Climate Clubs and Carbon Border Adjustment**](https://www.bertelsmann-stiftung.de/de/publikationen/publikation/did/eu-klimapolitik-klimaclubs-und-co2-grenzausgleich) (with [Joschka Wanner](http://joschkawanner.de/), [Gabriel Felbermayr](https://www.ifw-kiel.de/experts/ifw/gabriel-felbermayr/) and [Sonja Peterson](https://www.ifw-kiel.de/experts/ifw/sonja-peterson/)), Bertelsmann Foundation.
+-   [EU Climate Policy, Climate Clubs and Carbon Border Adjustment](https://www.bertelsmann-stiftung.de/de/publikationen/publikation/did/eu-klimapolitik-klimaclubs-und-co2-grenzausgleich) (with [Joschka Wanner](http://joschkawanner.de/), [Gabriel Felbermayr](https://www.ifw-kiel.de/experts/ifw/gabriel-felbermayr/) and [Sonja Peterson](https://www.ifw-kiel.de/experts/ifw/sonja-peterson/)), Bertelsmann Foundation.
 
--   [**Corona Pandemic: Global Data Monitor**](https://www.ifw-kiel.de/de/publikationen/policy-papers/2021/corona-krise-datenmonitor-global-0/) (with [Katrin Kamin](https://www.ifw-kiel.de/experts/ifw/katrin-kamin/), [Julian Hinz](https://julianhinz.com/), [Vincent Stamer](https://www.ifw-kiel.de/de/experten/ifw/vincent-stamer/) and Jakob Kutsch), Federal Foreign Office.
+-   [Corona Pandemic: Global Data Monitor](https://www.ifw-kiel.de/de/publikationen/policy-papers/2021/corona-krise-datenmonitor-global-0/) (with [Katrin Kamin](https://www.ifw-kiel.de/experts/ifw/katrin-kamin/), [Julian Hinz](https://julianhinz.com/), [Vincent Stamer](https://www.ifw-kiel.de/de/experten/ifw/vincent-stamer/) and Jakob Kutsch), Federal Foreign Office.
 
--   [**Supply Chains in the Post-Corona Era**](https://www.ifw-kiel.de/publications/policy-papers/2021/supply-chains-in-the-post-corona-era-in-german-15841/) (with [Alexander Sandkamp](https://www.ifw-kiel.de/experts/ifw/alexander-sandkamp/) and [Gabriel Felbermayr](https://www.ifw-kiel.de/experts/ifw/gabriel-felbermayr/)), Impuls Foundation, Mechanical Engineering Industry Association.
+-   [Supply Chains in the Post-Corona Era](https://www.ifw-kiel.de/publications/policy-papers/2021/supply-chains-in-the-post-corona-era-in-german-15841/) (with [Alexander Sandkamp](https://www.ifw-kiel.de/experts/ifw/alexander-sandkamp/) and [Gabriel Felbermayr](https://www.ifw-kiel.de/experts/ifw/gabriel-felbermayr/)), Impuls Foundation, Mechanical Engineering Industry Association.
 
--   [**Germany's Economy in Times of the Corona Lockdown**](https://www.ifw-kiel.de/publications/kiel-policy-briefs/special-edition/germanys-economy-in-times-of-the-corona-lockdown-14127/) (with [Gabriel Felbermayr](https://www.ifw-kiel.de/experts/ifw/gabriel-felbermayr/) and [Julian Hinz](https://julianhinz.com/)), Kiel Policy Brief, Spezial Corona-Update.
+-   [Germany's Economy in Times of the Corona Lockdown](https://www.ifw-kiel.de/publications/kiel-policy-briefs/special-edition/germanys-economy-in-times-of-the-corona-lockdown-14127/) (with [Gabriel Felbermayr](https://www.ifw-kiel.de/experts/ifw/gabriel-felbermayr/) and [Julian Hinz](https://julianhinz.com/)), Kiel Policy Brief, Spezial Corona-Update.
 
 ::: {#hero-heading}
 ## Vita
