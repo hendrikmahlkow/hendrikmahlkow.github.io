@@ -10,34 +10,34 @@ include-in-header:
     </script>
 ---
 
-I am a researcher and economist specializing in international trade and climate change. I am affiliated with the ==Austrian Institute of Economic Research== and the ==Kiel Institute for the World Economy==. My academic background includes a Ph.D. in Quantitative Economics at ==Christian-Albrechts-Universität zu Kiel== and  M.Sc. in Agricultural Economics from ==Humboldt-Universität zu Berlin==. Recently, I visited the ==University of California, Berkeley==. From 2022 to 2024, I am a Fellow of the ==Joachem-Herz Foundation==.
+I am a researcher and economist specializing in international trade and climate change. I am affiliated with the ==Austrian Institute of Economic Research== and the ==Kiel Institute for the World Economy==. I hold a Ph.D. in Quantitative Economics from ==Christian-Albrechts-Universität zu Kiel==. I studied Agricultural Economics (M.Sc.) and Agricultural Science (B.Sc.) at ==Humboldt-Universität zu Berlin==. Recently, I visited the ==University of California, Berkeley==. From 2022 to 2024, I am a Fellow of the ==Joachem-Herz Foundation==.
 
 ### Current Positions
 
-|             |                                                                   |
-|-------------|-------------------------------------------------------------------|
-| 2023 -      | **Austrian Institute of Economic Research**, Economist                 |
-| 2023 -      | **Kiel Institute for the World Economy**, Postdoctoral Research Fellow |
+|        |                                                                        |
+|----------------|--------------------------------------------------------|
+| 2023 - | **Austrian Institute of Economic Research**, Economist                 |
+| 2023 - | **Kiel Institute for the World Economy**, Postdoctoral Research Fellow |
 
 ### Previous Position
 
-|             |                                                                   |
-|-------------|-------------------------------------------------------------------|
-| 2019 - 2023 | **Kiel Institute for the World Economy**, Junior Economist        |
+|             |                                                            |
+|-------------|------------------------------------------------------------|
+| 2019 - 2023 | **Kiel Institute for the World Economy**, Junior Economist |
 
 ### Education
 
-|             |                                                                   |
-|-------------|-------------------------------------------------------------------|
-| 2022 - 2023 | **University of California, Berkeley**, Visiting PhD Student      |
-| 2019 - 2024 | **Kiel University**, PhD in Quantitative Economics                |
-| 2014 - 2018 | **Humboldt University of Berlin**, MSc in Agricultural Economics  |
-| 2009 - 2012 | **Humboldt University of Berlin**, BSc in Agricultural Sciences   |
+|             |                                                                  |
+|----------------|--------------------------------------------------------|
+| 2019 - 2024 | **Kiel University**, PhD in Quantitative Economics               |
+| 2022 - 2023 | **University of California, Berkeley**, Visiting PhD Student     |
+| 2014 - 2018 | **Humboldt University of Berlin**, MSc in Agricultural Economics |
+| 2009 - 2012 | **Humboldt University of Berlin**, BSc in Agricultural Sciences  |
 
 ### **Other relevant experience**
 
-|             |                                                                   |
-|-------------|-------------------------------------------------------------------|
-| 2017 - 2018 | **Potsdam Institute (PIK)**, Intern Land Use and Resilience       |
+|             |                                                             |
+|----------------|--------------------------------------------------------|
+| 2017 - 2018 | **Potsdam Institute (PIK)**, Intern Land Use and Resilience |
 
 [Download CV](/files/CV.pdf)

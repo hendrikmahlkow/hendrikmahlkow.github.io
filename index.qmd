@@ -61,10 +61,10 @@ With the knowledge gained through research, I do advisory work for policy makers
 
 -   [Germany's Economy in Times of the Corona Lockdown](https://www.ifw-kiel.de/publications/kiel-policy-briefs/special-edition/germanys-economy-in-times-of-the-corona-lockdown-14127/) (with [Gabriel Felbermayr](https://www.ifw-kiel.de/experts/ifw/gabriel-felbermayr/) and [Julian Hinz](https://julianhinz.com/)), Kiel Policy Brief, Spezial Corona-Update.
 
-:::{#hero-heading}
+::: {#hero-heading}
 ## Vita
 
-I am a research fellow at the [==Austrian Institute of Economic Research==](https://www.wifo.ac.at/) and a postdoc at the [==Kiel Institute for the World Economy==](http://www.ifw-kiel.de/). Recently, I made a research visit at the ==Universtiy of California, Berkeley==, as a Fulbright Scholar.
+I am a research fellow at the [==Austrian Institute of Economic Research==](https://www.wifo.ac.at/) and a postdoc at the [==Kiel Institute for the World Economy==](http://www.ifw-kiel.de/). I hold a PhD in Quantitative Economics from Kiel University. Recently, I made a research visit at the ==Universtiy of California, Berkeley==, as a Fulbright Scholar.
 
 [Download CV](https://www.hendrikmahlkow.com/files/CV.pdf)
 :::
