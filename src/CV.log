@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.30)  26 JUL 2024 09:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.30)  18 SEP 2024 09:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,102 +417,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
  []
 
 [2]
-Overfull \hbox (11.49251pt too wide) in paragraph at lines 225--226
+Overfull \hbox (11.49251pt too wide) in paragraph at lines 226--227
 []\OT1/phv/m/n/10 CONFERENCES
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 []\OT1/phv/m/n/10 SELECTED
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 \OT1/phv/m/n/10 ME-DIA
  []
 
 
-Overfull \hbox (3.17245pt too wide) in paragraph at lines 247--248
+Overfull \hbox (3.17245pt too wide) in paragraph at lines 248--249
 []\OT1/phv/m/n/10 PPEARANCE 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 []\OT1/phv/m/n/10 MENTORED
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 []\OT1/phv/m/n/10 REFEREE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 []\OT1/phv/m/n/10 NON-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 \OT1/phv/m/n/10 ACADEMIC
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
 
-Overfull \hbox (12.40237pt too wide) in paragraph at lines 372--373
+Overfull \hbox (12.40237pt too wide) in paragraph at lines 373--374
 []\OT1/phv/m/n/10 PROGRAMMING 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
  []
 
 
-Overfull \hbox (3.16257pt too wide) in paragraph at lines 399--400
+Overfull \hbox (3.16257pt too wide) in paragraph at lines 400--401
 []\OT1/phv/m/n/10 REFERENCES 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
@@ -533,10 +533,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/eurosym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb>
-Output written on CV.pdf (5 pages, 77054 bytes).
+Output written on CV.pdf (5 pages, 77245 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
