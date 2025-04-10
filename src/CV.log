@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.30)  20 MAR 2025 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.30)  10 APR 2025 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,102 +417,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
  []
 
 [2]
-Overfull \hbox (11.49251pt too wide) in paragraph at lines 226--227
+Overfull \hbox (11.49251pt too wide) in paragraph at lines 227--228
 []\OT1/phv/m/n/10 CONFERENCES
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 []\OT1/phv/m/n/10 SELECTED
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 \OT1/phv/m/n/10 ME-DIA
  []
 
 
-Overfull \hbox (3.17245pt too wide) in paragraph at lines 250--251
+Overfull \hbox (3.17245pt too wide) in paragraph at lines 251--252
 []\OT1/phv/m/n/10 PPEARANCE 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 []\OT1/phv/m/n/10 MENTORED
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 []\OT1/phv/m/n/10 REFEREE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 []\OT1/phv/m/n/10 NON-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 \OT1/phv/m/n/10 ACADEMIC
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
 
-Overfull \hbox (12.40237pt too wide) in paragraph at lines 376--377
+Overfull \hbox (12.40237pt too wide) in paragraph at lines 377--378
 []\OT1/phv/m/n/10 PROGRAMMING 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
 
  []
 
 
-Overfull \hbox (3.16257pt too wide) in paragraph at lines 403--404
+Overfull \hbox (3.16257pt too wide) in paragraph at lines 404--405
 []\OT1/phv/m/n/10 REFERENCES 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 
  []
 
@@ -523,7 +523,7 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 Here is how much of TeX's memory you used:
  9368 strings out of 480247
  145406 string characters out of 5896151
- 454847 words of memory out of 5000000
+ 455847 words of memory out of 5000000
  27217 multiletter control sequences out of 15000+600000
  473242 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -533,10 +533,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/eurosym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb>
-Output written on CV.pdf (5 pages, 77150 bytes).
+Output written on CV.pdf (5 pages, 77552 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
