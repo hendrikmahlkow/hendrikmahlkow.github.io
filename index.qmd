@@ -63,6 +63,14 @@ With the knowledge gained through research, I do advisory work for policy makers
 
 My contributions and commentary have been featured in renowned publications and TV shows such as the New York Times, the Wall Street Journal, Frankfurter Allgemeine Zeitung, ZDF heute, and ARD Brennpunkt.
 
+### Consulting
+
+As an independent consultant, I work at the intersection of economic modeling, data science, and policy analysis. I support international organizations, cooperations, and public institutions with both macro- and microeconomic simulations—ranging from trade policy evaluations to firm-level cost modeling and household-level behavioral responses to climate policy.
+
+My expertise includes working with large and complex datasets, such as spatially fine-gridded data, customs records, and corporate HR data (e.g. salary structures). Typical consulting questions include: How will a company’s cost base evolve under new regulatory frameworks? or Which households are likely to adopt renewable energy technologies under a revised subsidy scheme?
+
+Clients include the [United Nations Industrial Development Organization](https://www.unido.org/), the [German Agency For International Cooperation (GIZ)](https://www.giz.de/en/html/index.html), various German state ministries and cooperations.
+
 ::: {#hero-heading}
 ## Vita
 
