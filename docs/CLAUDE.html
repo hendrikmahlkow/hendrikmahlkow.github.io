@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hendrik Mahlkow - CV</title>
+<title>Hendrik Mahlkow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,11 +50,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    document.body.innerHTML = document.body.innerHTML.replace(/==([^=]+)==/g, '<span class="highlight">$1</span>');
-  });
-</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -76,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Hendrik Mahlkow</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -102,108 +97,47 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">CV</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>I am a researcher and economist specializing in international trade and climate change. I am affiliated with ==Kiel University== and the ==Kiel Institute for the World Economy==. I hold a Ph.D.&nbsp;in Quantitative Economics from ==Christian-Albrechts-Universität zu Kiel==. I studied Agricultural Economics (M.Sc.) and Agricultural Science (B.Sc.) at ==Humboldt-Universität zu Berlin==. During my PhD, I visited the ==University of California, Berkeley==. From 2022 to 2025, I was a Fellow of the ==Joachim Herz Foundation==.</p>
-<section id="current-positions" class="level3">
-<h3 class="anchored" data-anchor-id="current-positions">Current Positions</h3>
-<table class="table">
-<tbody>
-<tr class="odd">
-<td>2026 -</td>
-<td><strong>Kiel University</strong>, Postdoctoral Researcher</td>
-</tr>
-<tr class="even">
-<td>2024 -</td>
-<td><strong>Kiel Institute for the World Economy</strong>, Researcher</td>
-</tr>
-<tr class="odd">
-<td>2020 -</td>
-<td><strong>Independent Consultant</strong>, Programmer, &amp; Data Scientist</td>
-</tr>
-</tbody>
-</table>
+<section id="claude.md" class="level1">
+<h1>CLAUDE.md</h1>
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>Personal academic portfolio website for Hendrik Mahlkow (hendrikmahlkow.com), built with <strong>Quarto</strong> and deployed via <strong>GitHub Pages</strong> from the <code>/docs</code> folder.</p>
 </section>
-<section id="previous-positions" class="level3">
-<h3 class="anchored" data-anchor-id="previous-positions">Previous Positions</h3>
-<table class="table">
-<colgroup>
-<col style="width: 17%">
-<col style="width: 82%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>2023 - 2025</td>
-<td><strong>Austrian Institute of Economic Research</strong>, Economist</td>
-</tr>
-<tr class="even">
-<td>2019 - 2023</td>
-<td><strong>Kiel Institute for the World Economy</strong>, Junior Economist</td>
-</tr>
-</tbody>
-</table>
+<section id="build-commands" class="level2">
+<h2 class="anchored" data-anchor-id="build-commands">Build Commands</h2>
+<ul>
+<li><strong>Render site:</strong> <code>quarto render</code> — builds all <code>.qmd</code> files into <code>/docs</code></li>
+<li><strong>Preview site:</strong> <code>quarto preview</code> — local dev server with live reload</li>
+<li><strong>Render single page:</strong> <code>quarto render &lt;file&gt;.qmd</code></li>
+<li><strong>Compile CV:</strong> Run <code>pdflatex</code> on <code>src/CV.tex</code> to generate the CV PDF</li>
+</ul>
 </section>
-<section id="education" class="level3">
-<h3 class="anchored" data-anchor-id="education">Education</h3>
-<table class="table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 83%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>2019 - 2024</td>
-<td><strong>Kiel University</strong>, PhD in Quantitative Economics</td>
-</tr>
-<tr class="even">
-<td>2022 - 2023</td>
-<td><strong>University of California, Berkeley</strong>, Visiting PhD Student</td>
-</tr>
-<tr class="odd">
-<td>2014 - 2018</td>
-<td><strong>Humboldt University of Berlin</strong>, MSc in Agricultural Economics</td>
-</tr>
-<tr class="even">
-<td>2009 - 2012</td>
-<td><strong>Humboldt University of Berlin</strong>, BSc in Agricultural Sciences</td>
-</tr>
-</tbody>
-</table>
+<section id="architecture" class="level2">
+<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
+<ul>
+<li><strong>Source pages:</strong> <code>index.qmd</code>, <code>about.qmd</code>, <code>coding.qmd</code>, <code>research.qmd</code> (Quarto Markdown)</li>
+<li><strong>Config:</strong> <code>_quarto.yml</code> defines site structure, navbar, theme (Litera), and output settings</li>
+<li><strong>Styling:</strong> <code>styles.scss</code> (Sass theme overrides, color palette) + <code>styles.css</code> (component styles like landing section, highlights)</li>
+<li><strong>Output:</strong> <code>docs/</code> — generated HTML, should be committed for GitHub Pages deployment</li>
+<li><strong>LaTeX CV:</strong> <code>src/CV.tex</code> is the source for the downloadable CV PDF stored in <code>docs/files/</code></li>
+</ul>
 </section>
-<section id="other-relevant-experience" class="level3">
-<h3 class="anchored" data-anchor-id="other-relevant-experience"><strong>Other relevant experience</strong></h3>
-<table class="table">
-<colgroup>
-<col style="width: 17%">
-<col style="width: 82%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>2017 - 2018</td>
-<td><strong>Potsdam Institute (PIK)</strong>, Intern Land Use and Resilience</td>
-</tr>
-</tbody>
-</table>
-<p><a href="./files/CV.pdf">Download CV</a></p>
+<section id="key-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="key-conventions">Key Conventions</h2>
+<ul>
+<li>Custom highlight syntax: <code>==text==</code> in <code>.qmd</code> files renders as <code>&lt;span class="highlight"&gt;</code> with aquamarine background</li>
+<li>Color palette: sage green (#D1D9CE / #98A08D), purple (#AE8BD1), cream (#FDFBF7)</li>
+<li>Font: Jost (loaded from Google Fonts)</li>
+<li>The <code>docs/</code> directory is the publish target — re-render and commit it when content changes</li>
+<li><code>src/CV.tex</code> is usually the most frequently updated file, as it contains the CV content. After editing, run <code>pdflatex</code> and move the updated PDF in <code>docs/files/CV.pdf</code>.</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

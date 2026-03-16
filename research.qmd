@@ -20,4 +20,10 @@ include-in-header:
 
 ### **Working Paper**
 
+-   [**Quantitative Trade with Ships**](https://www.kielinstitut.de/de/publikationen/quantitative-trade-with-ships-19579/) (with Sonali Chowdhry and Inga Heiland), 2026.
+
+-   [**Tariffs Hit Differently: The Regional Impact of US Tariffs across Europe and the Role of the Single Market**](https://www.kielinstitut.de/de/publikationen/tariffs-hit-differently-the-regional-impact-of-us-tariffs-across-europe-and-the-role-of-the-single-market-19225/) (with Julian Hinz and Joschka Wanner), 2025.
+
+-   [**The KITE Model Suite: A Quantitative Framework for International Trade Analysis**](https://trade.ifw-kiel.de/KTTM/KITE_whitepaper.pdf) (with Gabriel Felbermayr, Julian Hinz, Sebastian Krantz, and Joschka Wanner), 2025.
+
 -   [**The Carbon Footprint of Global Trade Imbalances**](https://www.cesifo.org/en/publications/2023/working-paper/carbon-footprint-global-trade-imbalances) (with Joschka Wanner), *CESifo*, 2023.

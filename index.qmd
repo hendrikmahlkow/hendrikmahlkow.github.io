@@ -24,16 +24,16 @@ include-in-header:
 ---
 
 ::: landing
-# **Can trade mitigate climate change impacts?**
+# **How does trade policy reshape the global economy?**
 
 ```{=html}
-<p class="subtitle">If you find this question interesting you might take a look at my research. It focusses on international and environmental economics.</p>
+<p class="subtitle">If you find this question interesting you might take a look at my research. It uses quantitative trade models to study trade policy, climate change, and their global impacts.</p>
 ```
 :::
 
 ## Research
 
-My research focusses on international and environmental economics. I am using quantitative trade models based on the so-called gravity equation in order to derive numbers from theory. Therefore I link my educational background as an agricultural economist with my current work at the ==Austrian Institute of Economic Research== and the ==Kiel Institute for the World Economy==. For example, I use global gridded crop models to asses the impact of climate change on agricultural productivities and combine this with a gravity model in order to asses how different trade regimes can compensate negative welfare effects. Furthermore I am interested in econometrics of high-resolution and high-frequency data, e.g. [==remote sensing==](https://www.hendrikmahlkow.com/files/Datenmonitor_Global.pdf) and [==spatial data==](https://www.ifw-kiel.de/de/themendossiers/die-corona-krise/datenmonitor-corona-krise/).
+My research uses quantitative trade models based on the so-called gravity equation to study questions in ==international economics==, ==trade policy==, and ==environmental economics==. I analyze the effects of tariffs and trade conflicts, assess how trade can mitigate climate change impacts, and evaluate the consequences of geopolitical disruptions for food security and global value chains. Therefore I link my educational background as an agricultural economist with my current work at ==Kiel University== and the ==Kiel Institute for the World Economy==. Furthermore I am interested in econometrics of high-resolution and high-frequency data, e.g. [==remote sensing==](https://www.hendrikmahlkow.com/files/Datenmonitor_Global.pdf) and [==spatial data==](https://www.ifw-kiel.de/de/themendossiers/die-corona-krise/datenmonitor-corona-krise/).
 
 ### Publications
 
@@ -45,9 +45,13 @@ My research focusses on international and environmental economics. I am using qu
 
 ### Working Paper
 
--   [The Carbon Footprint of Global Trade Imbalances](https://www.cesifo.org/en/publications/2023/working-paper/carbon-footprint-global-trade-imbalances) (with Joschka Wanner), *CESifo*, 2023.
+-   [Quantitative Trade with Ships](https://www.kielinstitut.de/de/publikationen/quantitative-trade-with-ships-19579/) (with Sonali Chowdhry and Inga Heiland), 2026.
 
--   [Climate Change Adaptation: Agricultural Productivity Shocks and Trade Policy Responses](https://www.hendrikmahlkow.com/files/Productivity_shocks__trade_policy__and_climate_change_adaptation.pdf), *in progress*.
+-   [Tariffs Hit Differently: The Regional Impact of US Tariffs across Europe and the Role of the Single Market](https://www.kielinstitut.de/de/publikationen/tariffs-hit-differently-the-regional-impact-of-us-tariffs-across-europe-and-the-role-of-the-single-market-19225/) (with Julian Hinz and Joschka Wanner), 2025.
+
+-   [The KITE Model Suite: A Quantitative Framework for International Trade Analysis](https://trade.ifw-kiel.de/KTTM/KITE_whitepaper.pdf) (with Gabriel Felbermayr, Julian Hinz, Sebastian Krantz, and Joschka Wanner), 2025.
+
+-   [The Carbon Footprint of Global Trade Imbalances](https://www.cesifo.org/en/publications/2023/working-paper/carbon-footprint-global-trade-imbalances) (with Joschka Wanner), *CESifo*, 2023.
 
 ## Advisory Work
 
@@ -65,7 +69,7 @@ My contributions and commentary have been featured in renowned publications and 
 
 ### Consulting
 
-As an independent consultant, I work at the intersection of economic modeling, data science, and policy analysis. I support international organizations, cooperations, and public institutions with both macro- and microeconomic simulations---ranging from trade policy evaluations to firm-level cost modeling and household-level behavioral responses to climate policy.
+As an independent consultant, I work at the intersection of ==economic modeling, data science, and policy analysis==. I support international organizations, cooperations, and public institutions with both macro- and microeconomic simulations---ranging from trade policy evaluations to firm-level cost modeling and household-level behavioral responses to climate policy.
 
 My expertise includes working with large and complex datasets, such as spatially fine-gridded data, customs records, and corporate HR data (e.g. salary structures). Typical consulting questions include: How will a company's cost base evolve under new regulatory frameworks? or Which households are likely to adopt renewable energy technologies under a revised subsidy scheme?
 
@@ -74,7 +78,7 @@ Clients include the [United Nations Industrial Development Organization](https:/
 ::: {#hero-heading}
 ## Vita
 
-I am a research fellow at the [==Austrian Institute of Economic Research==](https://www.wifo.ac.at/) and a postdoc at the [==Kiel Institute for the World Economy==](http://www.ifw-kiel.de/). I hold a PhD in Quantitative Economics from Kiel University. Recently, I made a research visit at the ==Universtiy of California, Berkeley==, as a Fulbright Scholar.
+I am a postdoctoral researcher at [==Kiel University==](https://www.uni-kiel.de/) and a researcher at the [==Kiel Institute for the World Economy==](http://www.ifw-kiel.de/). I hold a PhD in Quantitative Economics from Kiel University. During my PhD, I was a Fulbright Scholar at the ==University of California, Berkeley==.
 
 [Download CV](https://www.hendrikmahlkow.com/files/CV.pdf)
 :::
@@ -86,10 +90,10 @@ Twitter: [\@HMahlkow](https://twitter.com/HMahlkow)\
 GitHub: [\@hendrikmahlkow](https://github.com/hendrikmahlkow)[\
 ](https://twitter.com/HMahlkow)\
 \
-Austrian Institute of Economic Research\
-Arsenal Objekt 20A\
-1030 Vienna\
-Austria\
+Kiel University\
+Christian-Albrechts-Platz 4\
+24118 Kiel\
+Germany\
 \
 Kiel Institute for the World Economy\
 Kiellinie 66\
