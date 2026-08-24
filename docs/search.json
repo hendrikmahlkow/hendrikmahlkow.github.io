@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "CV",
-    "section": "",
-    "text": "I am a researcher and economist specializing in international trade and climate change. I am affiliated with ==Kiel University== and the ==Kiel Institute for the World Economy==. I hold a Ph.D. in Quantitative Economics from ==Christian-Albrechts-Universität zu Kiel==. I studied Agricultural Economics (M.Sc.) and Agricultural Science (B.Sc.) at ==Humboldt-Universität zu Berlin==. During my PhD, I visited the ==University of California, Berkeley==. From 2022 to 2025, I was a Fellow of the ==Joachim Herz Foundation==.\n\nCurrent Positions\n\n\n\n2026 -\nKiel University, Postdoctoral Researcher\n\n\n2024 -\nKiel Institute for the World Economy, Researcher\n\n\n2020 -\nIndependent Consultant, Programmer, & Data Scientist\n\n\n\n\n\nPrevious Positions\n\n\n\n\n\n\n\n2023 - 2025\nAustrian Institute of Economic Research, Economist\n\n\n2019 - 2023\nKiel Institute for the World Economy, Junior Economist\n\n\n\n\n\nEducation\n\n\n\n\n\n\n\n2019 - 2024\nKiel University, PhD in Quantitative Economics\n\n\n2022 - 2023\nUniversity of California, Berkeley, Visiting PhD Student\n\n\n2014 - 2018\nHumboldt University of Berlin, MSc in Agricultural Economics\n\n\n2009 - 2012\nHumboldt University of Berlin, BSc in Agricultural Sciences\n\n\n\n\n\nOther relevant experience\n\n\n\n\n\n\n\n2017 - 2018\nPotsdam Institute (PIK), Intern Land Use and Resilience\n\n\n\nDownload CV"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
     "text": "Publications\n\nMacroeconomic structural change likely increases inequality in India more than climate policy (with Marian Leimbach, Michael Hübler, Lorenzo Montrone, Gabriel Felbermayr, Mathias Kalkuhl, Jan Steckel, Eduard Bukin, Johannes Koch, Marcos Marcolino, & Frank Pothen) Environmental Research Letters, 2024.\nLong-Run Impacts of the Conflict in Ukraine on Food Security in Africa, (with Lacina Balma, Tobias Heidland, Sebastian Jävervall, Adamon N. Mukasa and Andinet Woldemichael) African Development Review, 2024.\nCutting through the Value Chain: The Long-Run Effects of Decoupling the East from the West (with Gabriel Felbermayr and Alexander Sandkamp), Empirica, 2023.\n\n\n\nWorking Paper\n\nQuantitative Trade with Ships (with Sonali Chowdhry and Inga Heiland), 2026.\nTariffs Hit Differently: The Regional Impact of US Tariffs across Europe and the Role of the Single Market (with Julian Hinz and Joschka Wanner), 2025.\nThe KITE Model Suite: A Quantitative Framework for International Trade Analysis (with Gabriel Felbermayr, Julian Hinz, Sebastian Krantz, and Joschka Wanner), 2025.\nThe Carbon Footprint of Global Trade Imbalances (with Joschka Wanner), CESifo, 2023."
+  },
+  {
+    "objectID": "coding.html",
+    "href": "coding.html",
+    "title": "Coding",
+    "section": "",
+    "text": "Sharing methods and results are a cornerstone of science. The same holds true for code. Below you find some my software projects.\n\nKITE Model\nThe Kiel Institute Trade Policy Evaluation Model is a quantitative trade model, written in R and C++. I am one of the core developers of the model. Recently, we made the code open source. It is available on GitHub. I developed a simple web-app to explore the model dynamics (link).\n\n\nweatheR package\nWeatheR is an R package that downloads and processes historical data from 30.000 weather stations around the world. The package is available on GitHub."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "CV",
+    "section": "",
+    "text": "I am an economist specializing in international trade and climate change. I am a postdoctoral researcher at ==Kiel University== and deputy head of the Trade Policy research group at the ==Kiel Institute for the World Economy==. I hold a Ph.D. in Quantitative Economics from ==Christian-Albrechts-Universität zu Kiel==. I studied Agricultural Economics (M.Sc.) and Agricultural Science (B.Sc.) at ==Humboldt-Universität zu Berlin==. During my PhD, I visited the ==University of California, Berkeley==. From 2022 to 2025, I was a Fellow of the ==Joachim Herz Foundation==.\n\nCurrent Positions\n\n\n\n\n\n\n\n2026 -\nKiel University, Postdoctoral Researcher\n\n\n2026 -\nKiel Institute for the World Economy, Deputy Head of the Trade Policy Research Group\n\n\n2026 -\nAustrian Institute of Economic Research (WIFO), Research Associate\n\n\n2020 -\nIndependent Consultant, Programmer, & Data Scientist\n\n\n\n\n\nPrevious Positions\n\n\n\n\n\n\n\n2024 - 2026\nKiel Institute for the World Economy, Researcher\n\n\n2023 - 2025\nAustrian Institute of Economic Research, Economist\n\n\n2019 - 2023\nKiel Institute for the World Economy, Junior Economist\n\n\n\n\n\nEducation\n\n\n\n\n\n\n\n2019 - 2024\nKiel University, PhD in Quantitative Economics\n\n\n2022 - 2023\nUniversity of California, Berkeley, Visiting PhD Student\n\n\n2014 - 2018\nHumboldt University of Berlin, MSc in Agricultural Economics\n\n\n2009 - 2012\nHumboldt University of Berlin, BSc in Agricultural Sciences\n\n\n\n\n\nOther relevant experience\n\n\n\n\n\n\n\n2017 - 2018\nPotsdam Institute (PIK), Intern Land Use and Resilience\n\n\n\nDownload CV"
   },
   {
     "objectID": "index.html",
@@ -39,7 +46,7 @@
     "href": "index.html#vita",
     "title": "How does trade policy reshape the global economy?",
     "section": "Vita",
-    "text": "Vita\nI am a postdoctoral researcher at ==Kiel University== and a researcher at the ==Kiel Institute for the World Economy==. I hold a PhD in Quantitative Economics from Kiel University. During my PhD, I was a Fulbright Scholar at the ==University of California, Berkeley==.\nDownload CV"
+    "text": "Vita\nI am a postdoctoral researcher at ==Kiel University== and deputy head of the Trade Policy research group at the ==Kiel Institute for the World Economy==. I hold a PhD in Quantitative Economics from Kiel University. During my PhD, I was a Fulbright Scholar at the ==University of California, Berkeley==.\nDownload CV"
   },
   {
     "objectID": "index.html#contact",
@@ -47,61 +54,5 @@
     "title": "How does trade policy reshape the global economy?",
     "section": "Contact",
     "text": "Contact\nMail: mail@hendrikmahlkow.com\nTwitter: @HMahlkow\nGitHub: @hendrikmahlkow\n\n\nKiel University\nChristian-Albrechts-Platz 4\n24118 Kiel\nGermany\n\nKiel Institute for the World Economy\nKiellinie 66\n24105 Kiel\nGermany"
-  },
-  {
-    "objectID": "coding.html",
-    "href": "coding.html",
-    "title": "Coding",
-    "section": "",
-    "text": "Sharing methods and results are a cornerstone of science. The same holds true for code. Below you find some my software projects.\n\nKITE Model\nThe Kiel Institute Trade Policy Evaluation Model is a quantitative trade model, written in R and C++. I am one of the core developers of the model. Recently, we made the code open source. It is available on GitHub. I developed a simple web-app to explore the model dynamics (link).\n\n\nweatheR package\nWeatheR is an R package that downloads and processes historical data from 30.000 weather stations around the world. The package is available on GitHub."
-  },
-  {
-    "objectID": "coding.html#kite-model",
-    "href": "coding.html#kite-model",
-    "title": "Coding",
-    "section": "KITE Model",
-    "text": "KITE Model\nThe Kiel Institute Trade Policy Evaluation Model is a quantitative trade model, written in R and C++. Recently, we made the code open source. It is available on GitHub. I developed a simple web-app to explore the model dynamics (link)."
-  },
-  {
-    "objectID": "coding.html#weather-package",
-    "href": "coding.html#weather-package",
-    "title": "Coding",
-    "section": "weatheR package",
-    "text": "weatheR package\nweatheR is an R package that downloads and processes historical data from 30.000 weather stations around the world. The package is available on GitHub."
-  },
-  {
-    "objectID": "CLAUDE.html",
-    "href": "CLAUDE.html",
-    "title": "CLAUDE.md",
-    "section": "",
-    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nPersonal academic portfolio website for Hendrik Mahlkow (hendrikmahlkow.com), built with Quarto and deployed via GitHub Pages from the /docs folder.\n\n\n\n\nRender site: quarto render — builds all .qmd files into /docs\nPreview site: quarto preview — local dev server with live reload\nRender single page: quarto render &lt;file&gt;.qmd\nCompile CV: Run pdflatex on src/CV.tex to generate the CV PDF\n\n\n\n\n\nSource pages: index.qmd, about.qmd, coding.qmd, research.qmd (Quarto Markdown)\nConfig: _quarto.yml defines site structure, navbar, theme (Litera), and output settings\nStyling: styles.scss (Sass theme overrides, color palette) + styles.css (component styles like landing section, highlights)\nOutput: docs/ — generated HTML, should be committed for GitHub Pages deployment\nLaTeX CV: src/CV.tex is the source for the downloadable CV PDF stored in docs/files/\n\n\n\n\n\nCustom highlight syntax: ==text== in .qmd files renders as &lt;span class=\"highlight\"&gt; with aquamarine background\nColor palette: sage green (#D1D9CE / #98A08D), purple (#AE8BD1), cream (#FDFBF7)\nFont: Jost (loaded from Google Fonts)\nThe docs/ directory is the publish target — re-render and commit it when content changes\nsrc/CV.tex is usually the most frequently updated file, as it contains the CV content. After editing, run pdflatex and move the updated PDF in docs/files/CV.pdf."
-  },
-  {
-    "objectID": "CLAUDE.html#project-overview",
-    "href": "CLAUDE.html#project-overview",
-    "title": "CLAUDE.md",
-    "section": "",
-    "text": "Personal academic portfolio website for Hendrik Mahlkow (hendrikmahlkow.com), built with Quarto and deployed via GitHub Pages from the /docs folder."
-  },
-  {
-    "objectID": "CLAUDE.html#build-commands",
-    "href": "CLAUDE.html#build-commands",
-    "title": "CLAUDE.md",
-    "section": "",
-    "text": "Render site: quarto render — builds all .qmd files into /docs\nPreview site: quarto preview — local dev server with live reload\nRender single page: quarto render &lt;file&gt;.qmd\nCompile CV: Run pdflatex on src/CV.tex to generate the CV PDF"
-  },
-  {
-    "objectID": "CLAUDE.html#architecture",
-    "href": "CLAUDE.html#architecture",
-    "title": "CLAUDE.md",
-    "section": "",
-    "text": "Source pages: index.qmd, about.qmd, coding.qmd, research.qmd (Quarto Markdown)\nConfig: _quarto.yml defines site structure, navbar, theme (Litera), and output settings\nStyling: styles.scss (Sass theme overrides, color palette) + styles.css (component styles like landing section, highlights)\nOutput: docs/ — generated HTML, should be committed for GitHub Pages deployment\nLaTeX CV: src/CV.tex is the source for the downloadable CV PDF stored in docs/files/"
-  },
-  {
-    "objectID": "CLAUDE.html#key-conventions",
-    "href": "CLAUDE.html#key-conventions",
-    "title": "CLAUDE.md",
-    "section": "",
-    "text": "Custom highlight syntax: ==text== in .qmd files renders as &lt;span class=\"highlight\"&gt; with aquamarine background\nColor palette: sage green (#D1D9CE / #98A08D), purple (#AE8BD1), cream (#FDFBF7)\nFont: Jost (loaded from Google Fonts)\nThe docs/ directory is the publish target — re-render and commit it when content changes\nsrc/CV.tex is usually the most frequently updated file, as it contains the CV content. After editing, run pdflatex and move the updated PDF in docs/files/CV.pdf."
   }
 ]
