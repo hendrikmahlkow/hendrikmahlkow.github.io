@@ -3,6 +3,9 @@ project:
   output-dir: docs
   render:
     - "*.qmd"          # only the site pages; keeps CLAUDE.md/README.md off the website
+  resources:           # copied into docs/ on every render (the render clears docs/)
+    - files/**
+    - images/**
 
 website:
   title: "Hendrik Mahlkow"

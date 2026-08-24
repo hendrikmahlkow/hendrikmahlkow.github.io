@@ -2,6 +2,10 @@ name: Render site and CV
 
 # Renders the Quarto site into docs/ and compiles src/CV.tex, then commits the
 # result back to main. GitHub Pages serves docs/, so nothing else is needed.
+#
+# NOTE: `quarto render` clears the output directory. Anything the site needs at
+# runtime must therefore exist as a SOURCE folder in the repo root (files/,
+# images/) so that Quarto copies it into docs/ on every render.
 on:
   push:
     branches: [main]
@@ -24,6 +28,15 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Compile src/CV.tex
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: src
+          root_file: CV.tex
+
+      - name: Update the downloadable CV
+        run: cp src/CV.pdf files/CV.pdf
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         # add "with: {version: 1.5.57}" to pin a specific Quarto version
@@ -31,23 +44,14 @@ jobs:
       - name: Render website into docs/
         run: quarto render
 
-      - name: Restore CNAME if the render dropped it
+      - name: Restore CNAME (custom domain) after the render
         run: git checkout -- docs/CNAME || true
-
-      - name: Compile src/CV.tex
-        uses: xu-cheng/latex-action@v3
-        with:
-          working_directory: src
-          root_file: CV.tex
-
-      - name: Publish the CV PDF
-        run: cp src/CV.pdf docs/files/CV.pdf
 
       - name: Commit rendered output
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs
+          git add docs files
           if git diff --staged --quiet; then
             echo "Nothing changed."
           else
