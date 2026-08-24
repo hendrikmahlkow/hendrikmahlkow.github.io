@@ -10,20 +10,22 @@ include-in-header:
     </script>
 ---
 
-I am a researcher and economist specializing in international trade and climate change. I am affiliated with ==Kiel University== and the ==Kiel Institute for the World Economy==. I hold a Ph.D. in Quantitative Economics from ==Christian-Albrechts-Universität zu Kiel==. I studied Agricultural Economics (M.Sc.) and Agricultural Science (B.Sc.) at ==Humboldt-Universität zu Berlin==. During my PhD, I visited the ==University of California, Berkeley==. From 2022 to 2025, I was a Fellow of the ==Joachim Herz Foundation==.
+I am an economist specializing in international trade and climate change. I am a postdoctoral researcher at ==Kiel University== and deputy head of the Trade Policy research group at the ==Kiel Institute for the World Economy==. I hold a Ph.D. in Quantitative Economics from ==Christian-Albrechts-Universität zu Kiel==. I studied Agricultural Economics (M.Sc.) and Agricultural Science (B.Sc.) at ==Humboldt-Universität zu Berlin==. During my PhD, I visited the ==University of California, Berkeley==. From 2022 to 2025, I was a Fellow of the ==Joachim Herz Foundation==.
 
 ### Current Positions
 
-|        |                                                          |
-|--------|----------------------------------------------------------|
-| 2026 - | **Kiel University**, Postdoctoral Researcher             |
-| 2024 - | **Kiel Institute for the World Economy**, Researcher     |
-| 2020 - | **Independent Consultant**, Programmer, & Data Scientist |
+|        |                                                                                         |
+|--------|-----------------------------------------------------------------------------------------|
+| 2026 - | **Kiel University**, Postdoctoral Researcher                                            |
+| 2026 - | **Kiel Institute for the World Economy**, Deputy Head of the Trade Policy Research Group |
+| 2026 - | **Austrian Institute of Economic Research (WIFO)**, Research Associate                   |
+| 2020 - | **Independent Consultant**, Programmer, & Data Scientist                                 |
 
 ### Previous Positions
 
 |             |                                                            |
 |-------------|------------------------------------------------------------|
+| 2024 - 2026 | **Kiel Institute for the World Economy**, Researcher       |
 | 2023 - 2025 | **Austrian Institute of Economic Research**, Economist     |
 | 2019 - 2023 | **Kiel Institute for the World Economy**, Junior Economist |
 

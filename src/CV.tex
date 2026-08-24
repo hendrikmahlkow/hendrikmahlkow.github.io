@@ -29,6 +29,41 @@
 \author{Hendrik Mahlkow}
 \date{May 2026}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     BREAKABLE CV SECTIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Two-column look (label | body) as before, but built from a list instead of
+% minipages, so a long section can continue on the following page.
+\newlength{\cvlabelwidth}\setlength{\cvlabelwidth}{0.12\textwidth}
+\newlength{\cvlabelgap}\setlength{\cvlabelgap}{5mm}
+% \smash: a multi-line label must not add height/depth to the body's first line
+\newcommand{\cvmakelabel}[1]{%
+    \smash{\parbox[t]{\cvlabelwidth}{\raggedright{\fontfamily{phv}\selectfont #1}}}}
+\newenvironment{cvsection}[1]{%
+    \par\medskip
+    \begin{list}{}{%
+        \setlength{\leftmargin}{\dimexpr\cvlabelwidth+\cvlabelgap\relax}%
+        \setlength{\labelwidth}{\cvlabelwidth}%
+        \setlength{\labelsep}{\cvlabelgap}%
+        \setlength{\rightmargin}{0pt}%
+        \setlength{\itemindent}{0pt}%
+        \setlength{\listparindent}{0pt}%
+        \setlength{\topsep}{0pt}%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\parsep}{0.3em}%
+        \setlength{\itemsep}{0pt}%
+        \let\makelabel\cvmakelabel%
+    }%
+    \item[#1]\ignorespaces%
+}{%
+    \end{list}\medskip%
+}
+% keep at least two lines of a paragraph together across a page break
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\raggedbottom
+
 \begin{document}
 
 {\fontfamily{phv}\selectfont 
@@ -64,55 +99,37 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{comment}
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont ACADEMIC POSITION} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth} 
+\begin{cvsection}{ACADEMIC POSITION}
     Researcher, Kiel Institute for the World Economy, since July 2019
-\end{minipage}
-\medskip
+\end{cvsection}
 \end{comment}
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont CURRENT POSITIONS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth} 
+\begin{cvsection}{CURRENT POSITIONS}
     Postdoctoral Researcher, Kiel University, since 2026 \par
-    Researcher, Kiel Institute for the World Economy, since 2024 \par
+    Deputy Head of the Trade Policy Research Group, Kiel Institute for the World Economy, since 2026 \par
     Research Associate, Austrian Institute of Economic Research (WIFO), since 2026 \par
     Independent Consultant, Programmer, \& Data Scientist, since 2020 \par
     \begin{itemize}
         \item[-] Providing analytical support, economic modeling, data analysis, and programming
         \item[-] Various public sector stakeholders (e.g., UNIDO, German State Ministries) and private clients (e.g., GIZ GmbH, 21Staatskunst gGmbH)
     \end{itemize}
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PREVIOUS POSITION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont PREVIOUS POSITION} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth} 
+\begin{cvsection}{PREVIOUS POSITION}
+    Researcher, Kiel Institute for the World Economy, 2024--2026 \par
     Economist, Austrian Institute of Economic Research,  2023--2025 \par
     Junior Economist, Kiel Institute for the World Economy, 2019--2023 \par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont EDUCATION} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{EDUCATION}
     Ph.D. in Quantitative Economics, Kiel University, 2019--2024 \par
     Advanced Studies Program in International Economic Policy Research, Kiel Institute:
     \begin{itemize}
@@ -121,100 +138,70 @@
     \end{itemize}
     M.Sc. in Agricultural Economics, Humboldt University of Berlin, 2018 \par
     B.Sc. in Agricultural Sciences, Humboldt University of Berlin, 2012 \par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH VISITS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont RESEARCH VISITS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{RESEARCH VISITS}
     University of California, Berkeley, March 2026 \par
     University of California, Berkeley, 2022--2023 \par
     \begin{itemize}
         \item[-] \textit{Department of Agriculture \& Resource Economics}, Host: Joe Shapiro
     \end{itemize}
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUPLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont PUBLICATIONS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{PUBLICATIONS}
     \href{https://www.doi.org/10.1088/1748-9326/ad34e9}{``Macroeconomic structural change likely increases inequality in India more than climate policy''} with Marian Leimbach, Michael Hübler, Gabriel Felbermayr, Mathias Kalkuhl, Jan Steckel, et al. \textit{Environmental Research Letters}, 2024. \par
     \href{http://doi.org/10.1111/1467-8268.12745}{``Long-run impacts of the conflict in Ukraine on food security in Africa''} with Lacina Balma, Tobias Heidland, Sebastian Jävervall, Adamon N. Mukasa \& Andinet Woldemichael. \textit{African Development Review}, 2024. \par
     \href{https://doi.org/10.1007/s10663-022-09561-w}{``Cutting through the value chain: The long-run effects of decoupling the East from the West''} with Gabriel Felbermayr \& Alexander Sandkamp, \textit{Empirica}, 2023. \par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     WORKING PAPERS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont WORKING PAPER} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{WORKING PAPER}
     \href{https://www.kielinstitut.de/de/publikationen/quantitative-trade-with-ships-19579/}{``Quantitative Trade with Ships''} with Sonali Chowdhry and Inga Heiland, 2026. \par
     \href{https://www.kielinstitut.de/de/publikationen/tariffs-hit-differently-the-regional-impact-of-us-tariffs-across-europe-and-the-role-of-the-single-market-19225/}{``Tariffs Hit Differently: The Regional Impact of US tariffs across Europe and the Role of the Single Market''} with Julian Hinz and Joschka Wanner, 2025. \par
     \href{https://trade.ifw-kiel.de/KTTM/KITE_whitepaper.pdf}{``The KITE Model Suite: A Quantitative Framework for
 International Trade Analysis''} with Gabriel Felbermayr, Julian Hinz, Sebastian Krantz, and Joschka Wanner, 2025. \par
     \href{https://www.cesifo.org/en/publications/2023/working-paper/carbon-footprint-global-trade-imbalances}{``The Carbon Footprint of Global Trade Imbalances''} with Joschka Wanner, 2023. \par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     WORK IN PROGRESS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont SELECTED WORK-IN-PROGRESS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{SELECTED WORK-IN-PROGRESS}
     ``Who Pays the Tariffs?'' with Julian Hinz, Aaron Lohmann, and Anna Vorwig.\par
     ``How can trade policy mitigate climate change welfare impacts?'' single-authored.\par
     ``You can always go downtown? Weather effects and consumer responses'' with Annika Stechemesser.\par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECT FUNDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{comment}
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont PROJECT FUNDS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{PROJECT FUNDS}
     Carbon Border Tax Adjustment of the European Union, Bertelsmann Foundation (30,000 \euro{}), together with Gabriel Felbermayr, Sonja Peterson and Joschka Wanner, 2021. \par
     Economic Impact of COVID-19 on the Global South, German Federal Foreign Office (25,000 \euro{}), together with Katrin Kamin, Julian Hinz and Vincent Stamer, 2020. \par
     Global Value Chains after COVID-19, Impuls Foundation (10,000 \euro{}), together with Gabriel Felbermayr and Alexander Sandkamp, 2020. \par
     Greening the CAP by Harnessing the Power of Environmental Economics, foodwatch e. V. (15,000 \euro{}), together with  Gabriel Felbermayr, Ruth Delzeit and Anna-Katharina Jacobs, 2019.
-\end{minipage}
-\medskip
+\end{cvsection}
 \end{comment}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COMMENTARY & POLICY REPORTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont COMMENTARY \& POLICY REPORTS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{COMMENTARY \& POLICY REPORTS}
   \href{https://doi.org/10.18723/diw_wb:2026-28-1}{``Chinas Dominanz im Schiffbau und US-Handelspolitik schaffen neue Risiken für Europa und andere Handelspartner''} with Sonali Chowdhry and Inga Heiland, \textit{DIW Wochenbericht}, 93(28), July 2026. \par
   \href{https://doi.org/10.2478/wd-2026-00}{``Grenzausgleich für die EU-Klimapolitik: Optionen und ihre ökonomischen Wirkungen''} with Gabriel Felbermayr, Friedrich Lührs, Johannes Müller, Isabel Pham, Robin Sogalla, and Joschka Wanner, \textit{Wirtschaftsdienst}, 106(5), May 2026. \par
   \href{https://doi.org/10.2478/wpbl-2026-0003}{``Der EU-Binnenmarkt als Schutzschild: Wie Europa den Handelskrieg mit den USA abfedert''} with Gabriel Felbermayr, Julian Hinz, Sebastian Krantz, and Joschka Wanner, \textit{Wirtschaftspolitische Blätter}, 2026(1), May 2026. \par
@@ -235,36 +222,15 @@ Joschka Wanner, Martin Mosler, and Christoph A. Schaltegger, \textit{WIFO Study}
     \href{https://www.fiw.ac.at/publications/trade-and-welfare-effects-of-new-trade-policy-instruments/}{``Trade and Welfare Effects of New Trade Policy Instruments''} with Yvonne Wolfmayr, Elisabeth Christen, Birgit Meyer, and Michael Pfaffermayr, Study for the Austrian Federal Ministry of Economics, January 2024.\par
     \href{https://www.europarl.europa.eu/RegData/etudes/IDAN/2023/754440/EXPO_IDA(2023)754440_EN.pdf}{``An analysis of the implementation of the EU-Canada Comprehensive Economic and Trade Agreement (CETA)''} with Julian Hinz, Carsten Brockhaus, Sonali Chowdhry, and Vasundhara Thakur, Study for the European Parliament, November 2023. \par
     \href{https://www.fiw.ac.at/2023/10/02/volkswirtschaftliche-kosten-der-russland-sanktionen/}{``Volkswirtschaftliche Kosten der Russland-Sanktionen''}, \textit{FIW Spotlight}, October 2023. \par
-\end{minipage}
-\medskip
 
-\begin{minipage}[t]{0.12\textwidth}
-\hspace{0mm}
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
     \href{https://www.oekonomenstimme.org/artikel/2022/07/die-langfristigen-auswirkungen-einer-wirtschaftlichen-entkopplung-von-ost-und-west/}{``Die langfristigen Auswirkungen einer wirtschaftlichen Entkopplung von Ost und West''} with Alexander Sandkamp and Gabriel Felbermayr, \textit{Ökonomenstimme}, July 2022. \par
     \href{https://www.cesifo.org/en/publikationen/2022/working-paper/cutting-through-value-chain-long-run-effects-decoupling-east-west}{``Cutting through the Value Chain: The Long-Run Effects of Decoupling the East from the West''} with Gabriel Felbermayr and Alexander Sandkamp, \textit{EconPol Policy Brief}, ifo Institute, April 2022. \par
     \href{https://www.megatrends-afrika.de/publikation/mit-der-russischen-invasion-der-ukraine-droht-langfristige-ernaehrungsunsicherheit-in-afrika}{``Mit der russischen Invasion der Ukraine droht langfristige Ernährungsunsicherheit in Afrika''} with Tobias Heidland and Sebastian Jävervall, \textit{Megatrends Afrika - Spotlight}, April 2022. \par
-\end{minipage}
-\medskip
 
-\begin{minipage}[t]{0.12\textwidth}
-\hspace{0mm}
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
     \href{https://www.welthungerhilfe.de/welternaehrung/rubriken/agrar-ernaehrungspolitik/wie-der-ukrainekrieg-afrikas-brotversorgung-trifft/}{``Ukrainekrieg bedroht langfristig Afrikas Ernährungssicherheit''} with Tobias Heidland and Sebastian Jävervall, \textit{Welternährung, Fachjournal der Welthungerhilfe}, April 2022. \par
     \href{https://www.ifw-kiel.de/publications/kiel-policy-brief/ukraine-special/long-run-impacts-of-the-conflict-in-ukraine-on-food-security-in-africa-17165/}{``Long-Run Impacts of the Conflict in Ukraine on Food Security in Africa''} with Lacina Balma, Tobias Heidland, Sebastian Jävervall, Adamon N. Mukasa, and Andinet Woldemichael, \textit{Kiel Policy Brief}, March 2022. \par
     
-\end{minipage}
-\medskip
 
-\begin{minipage}[t]{0.12\textwidth}
-\hspace{0mm}
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
     \href{https://www.oekonomenstimme.org/artikel/2021/11/internationale-emissions--und-verteilungseffekte-eines-hoeheren-co2-preises-in-der-eu/}{``Internationale Emissions- und Verteilungseffekte eines höheren CO2-Preises in der EU''} with Thieß Petersen and Joschka Wanner, \textit{Ökonomenstimme}, November 2021. \par
 \href{https://www.wirtschaftsdienst.eu/inhalt/jahr/2021/heft/11/beitrag/folgen-eines-hoeheren-co2-preises-in-der-eu-wer-gewinnt-wer-verliert.html}{``Folgen eines höheren CO2-Preises in der EU – wer gewinnt, wer verliert?''} with Thieß Petersen and Joschka Wanner, \textit{Wirtschaftsdienst}, November 2021. \par
 
@@ -276,18 +242,13 @@ Joschka Wanner, Martin Mosler, and Christoph A. Schaltegger, \textit{WIFO Study}
     \href{https://www.ifw-kiel.de/publications/kiel-policy-briefs/2020/the-economic-costs-of-war-by-other-means-15301/}{``The Economic Costs of War by Other Means''}, with Sonali Chowdhry, Gabriel Felbermayr, Julian Hinz, Katrin Kamin and Anna-Katharina Jacobs. \textit{Kiel Policy Brief}, October 2020. \par
     \href{https://www.ifw-kiel.de/de/publikationen/kiel-policy-briefs/spezial/bodenbildung-in-der-binnenwirtschaft-kollaps-des-welthandels-14242/}{``Bodenbildung in der Binnenwirtschaft, Kollaps des Welthandels''}, with Gabriel Felbermayr, Julian Hinz and Vincent Stamer. \textit{Kiel Policy Brief}, May 2020. \par
     \href{https://www.ifw-kiel.de/publications/kiel-policy-briefs/special-edition/germanys-economy-in-times-of-the-corona-lockdown-14127/}{``Germany’s economy in times of the Corona Lockdown''}, with Gabriel Felbermayr and Julian Hinz. \textit{Kiel Policy Brief}, April 2020.
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     CONFERENCES & SEMINARS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont CONFERENCES \& SEMINARS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{CONFERENCES \& SEMINARS}
     \textit{2026} \\
     3rd Kiel-Göttingen-CEPR Conference ``China in the Global Economy''; FIND Seminar, Aarhus University. \par
     \textit{2025} \\
@@ -296,32 +257,20 @@ Joschka Wanner, Martin Mosler, and Christoph A. Schaltegger, \textit{WIFO Study}
     Paris School of Economics; Journal of International Economics Summer School, Oxford University; Paris-Saclay Conference on Trade and Environment; 27th Annual Conference on Global Economic Analysis, Colorado State University; ETSG, Athens; Aarhus-Kiel Trade Workshop. \par
     \textit{2023} \\
     EUI, Florence; EAERE, Cyprus; INFER \& INTECO, Valencia; ETSG, Surrey; WIFO Seminar; Junior Trade Workshop, University Mainz. \par
-\end{minipage}
-\medskip
 
-\begin{minipage}[t]{0.12\textwidth}
-\hspace{0mm}
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
     \textit{2022} \\
     FIW Conference 'International Economics'; 25th Annual Conference on Global Economic Analysis, Purdue University; Kiel Institute Seminar; Environmental and Resource Economics Seminar, University of California, Berkeley.  \par
     \textit{2021} \\
     ETSG Conference, Ghent; iESF Workshop; Brown Bag Seminar, CAU Kiel; IfW Kiel. \par
     \textit{2020} \\
     Aarhus-Kiel Trade Workshop. \par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     MEDIA APPEARANCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont SELECTED MEDIA \mbox APPEARANCE} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{SELECTED MEDIA APPEARANCE}
   \href{https://www.bpb.de/kurz-knapp/hintergrund-aktuell/578241/viele-menschen-in-entwicklungslaendern-koennen-die-steigenden-lebensmittelpreise-nicht-ausgleichen/}{``Viele Menschen in Entwicklungsländern können die steigenden Lebensmittelpreise nicht ausgleichen''}, Bundeszentrale für politische Bildung (bpb.de), [\textit{interview}], May 26, 2026 \par
   \href{https://www.ardmediathek.de/video/Y3JpZDovL3dkci5kZS9CZWl0cmFnLXNvcGhvcmEtMzNjMDQwZjYtY2IxMi00OWM0LWI2YWQtYTQ2ZWE2Nzc3OWVh}{Europamagazin über Ölkrise und Inflationserwartung}, ARD, March 8, 2026 \par
   \href{https://www.zdf.de/play/magazine/heute-19-uhr-102/heute-19-uhr-vom-02-maerz-2026-100}{heute Nachrichten über Ölkrise und Inflationserwartung}, ZDF, March 2, 2026 \par
@@ -335,42 +284,21 @@ Joschka Wanner, Martin Mosler, and Christoph A. Schaltegger, \textit{WIFO Study}
     \href{https://www.derstandard.at/story/3000000264273/trump-stellt-china-zollnachlass-f252r-entgegenkommen-bei-tiktok-verkauf-in-aussicht}{``Wifo sieht Industrie durch US-Zölle besonders stark betroffen''}, Der Standard, April 4, 2025 \par 
     \href{https://www.derstandard.de/story/3000000256055/trumps-zoelle-koennten-usa-so-viel-kosten-wie-warren-buffett-besitzt}{``Trumps Zölle könnten USA so viel kosten wie Warren Buffetts Besitz''}, Der Standard, February 5, 2025 \par
     \href{https://www.ndr.de/nachrichten/info/Wirtschaft-Folgen-der-Staudammzerstoerung-fuer-Getreideproduktion,audio1398696.html}{``Ukraine: Folgen der Staudammzerstörung für Getreideproduktion''}, NDR Info, June 7, 2023 \par
-\end{minipage}
-\medskip
 
-\begin{minipage}[t]{0.12\textwidth}
-\hspace{0mm}
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
       \href{https://www.businessinsider.de/politik/welt/spiel-auf-zeit-warum-die-bundesregierung-und-experten-glauben-dass-die-sanktionen-des-westens-russland-langfristig-in-die-knie-zwingen-werden/}{``Spiel auf Zeit: Warum die Sanktionen des Westens Russland langfristig in die Knie zwingen''}, Business Insider, July 22, 2022 \par
     ``Deal der Ukraine und Russland zu den Getreideausfuhren'', WDR 1 Cosmo, July 22, 2022 \par
     \href{https://www.zdf.de/nachrichten/heute-19-uhr/bauerntag-luebeck-oezdemir-video-100.html}{``Steigende Lebensmittelpreise nutzen den Landwirten kaum''}, ZDF heute, June 14, 2022 \par
     ``Kann Öko-Landwirtschaft die Menschen statt machen?'', WDR5, April 20, 2022 \par
     \href{https://www.wsj.com/articles/driving-into-danger-ukrainian-truckers-are-delivering-food-cargo-and-aid-11649595601}{``Driving Into Danger, Ukrainian Truckers Are Delivering Food, Cargo and Aid''} Wall Street Journal, April 10, 2022 \par
     ``Jetzt denkt die Regierung um - in kleinen Etappen'', Die Welt, April 5, 2022 \par
-\end{minipage}
-\medskip
 
-\begin{minipage}[t]{0.12\textwidth}
-\hspace{0mm}
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
     ``Auswirkungen von EU-Sanktionen auf Russland'', arte Journal, April 5, 2022 \par
         \href{https://www.nytimes.com/2022/03/31/business/economy/diesel-economy-russia-ukraine.html}{``Soaring Cost of Diesel Ripples Through the Global Economy''} New York Times, March 30, 2022 \par
     \href{https://www.n-tv.de/wirtschaft/Wie-lange-reicht-unser-Gas-noch-article23234226.html}{``Frühwarnstufe für Gaslieferstopp: Wie lange reicht unser Gas noch?''} ntv.de, March 30, 2022 \par
     ``Krieg in der Ukraine: Gefahr für die Ernährungssicherheit in Afrika'', ARD Brennpunkt, March 21, 2022 \par
     \href{https://www.derstandard.de/story/2000134038874/krieg-heizt-die-preise-fuer-lebensmittel-weltweit-stark-an}{``Krieg heizt die Preise für Lebensmittel weltweit stark an''} Der Standard, March 12, 2022 \par
     ``Das Risiko China'', FAZ, March 11, 2022 \par
-\end{minipage}
-\medskip
 
-\begin{minipage}[t]{0.12\textwidth}
-\hspace{0mm}
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
     \href{https://www.tagesspiegel.de/wirtschaft/agrarminister-cem-oezdemir-zu-den-folgen-des-kriegs-die-lebensmittelversorgung-in-deutschland-ist-sicher/28155160.html}{``Die Lebensmittelversorgung in Deutschland ist sicher''}, Der Tagesspiegel, March 11, 2022 \par
     \href{https://www.manager-magazin.de/politik/wie-es-um-die-ernaehrungssicherheit-steht-ausfall-der-ukraine-als-getreide-exporteur-trifft-afrika-hart-a-fdf304e9-e490-4d78-8cf1-f56464958af1}{``Wie der Ukraine-Krieg die weltweite Ernährung bedroht''} Manger Magazin, March 11, 2022 \par
     \href{https://www.derstandard.at/story/2000133979024/embargo-gegen-russisches-rohoel-treibt-us-preise-in-die-hoehe}{``Embargo gegen russisches Rohöl treibt US-Preise in die Höhe''}, Der Standard, March 9, 2022 \par
@@ -384,93 +312,59 @@ Joschka Wanner, Martin Mosler, and Christoph A. Schaltegger, \textit{WIFO Study}
     Interview \href{https://www.badische-zeitung.de/die-russland-sanktionen-sind-noch-nicht-die-ganz-grosse-keule--209731804.html}{``Ökonom: 'Ein Öl- und Gas-Embargo träfe Russland erheblich'''} Badische Zeitung, February 24, 2022 \par
     \href{https://www.dw.com/de/ifw-energie-embargo-tr\%C3\%A4fe-russland-hart-deutschland-aber-kaum/a-60885585}{``IfW: Energie-Embargo träfe Russland hart - Deutschland aber kaum''} Deutsche Welle, February 23, 2022 \par
 
-\end{minipage}
-\medskip
 
-\begin{minipage}[t]{0.12\textwidth}
-\hspace{0mm}
-
-
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
       \href{https://www.spiegel.de/wirtschaft/unternehmen/sanktionen-wegen-ukraine-eskalation-gas-boykott-wuerde-russland-am-haertesten-treffen-a-d28dc387-1c8b-498d-9470-ef15043fac74}{``Gasboykott würde Russland am härtesten treffen''} Spiegel Online, February 23, 2022 \par
     ``Das Risiko einer Rezession im Winter steigt'', FAZ, November 25, 2021 \par
     ``Willkommen im Klub'', Der Spiegel, June 26, 2021 \par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     GRANTS & HONORS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont GRANTS AND HONORS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{GRANTS AND HONORS}
     Entrepreneurship Program in Atlanta, Georgia, \emph{Joachim Herz Foundation}, 2,500 \euro{}, 2025 \par
     Add-on Fellowship, \emph{Joachim Herz Foundation}, 15,500 \euro{}, 2022 -- 2025 \par
     Research Fellowship, \emph{Fulbright Commission}, 13,000 \euro{}, 2022 \par
     Travel \& Research Fund, \emph{German Academic Exchange Service} (DAAD), 8,000 \euro{}, 2022 \par
     Wallace E. Tyner Young Researcher Award, \emph{Purdue University}, 2022 \par
     Media Award for Outstanding Outreach Activity, \emph{Kiel Institute}, 5,000 \euro{}, 2022 \par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     TEACHING
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont TEACHING} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{TEACHING}
     \textit{Kiel University} \\
     Reale Außenwirtschaft (lecture, B.Sc.), 2026 \par
     Empirische Analyse von Handelspolitik (seminar, M.Sc.), 2026 \par
     \textit{Professional Training} \\
     Strengthening Uzbekistan's Capacity in Foreign Trade Forecasting, four-day seminar for the Uzbek Ministry of Investment, Industry and Trade, commissioned by GIZ, Tashkent, July 2026 \par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     MENTORED STUDENTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont MENTORED STUDENTS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{MENTORED STUDENTS}
     \textit{Masters} \\
     Panagiota Charalampidou (WU Vienna), Alena Pavlova (WU Vienna), Jakob Kutsch (CAU Kiel), Jakob Stender (CAU Kiel).
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     REFEREE SERVICE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont REFEREE SERVICE} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{REFEREE SERVICE}
     Economic Modeling, International Economics, Review of World Economics (3x), Agricultural Economics, Empirica.
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     NON-ACADEMIC TALKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont NON-ACADEMIC TALKS} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{NON-ACADEMIC TALKS}
   \textit{2026} \\
     Talk on the economic effects of US tariffs, Kieler Woche, Kiel; Expert roundtable on global supply-chain shocks, maritime networks, and port resilience, Consulate General of the Republic of Korea, Hamburg. \par
   \textit{2025} \\
@@ -482,48 +376,32 @@ Joschka Wanner, Martin Mosler, and Christoph A. Schaltegger, \textit{WIFO Study}
     Talk on the Economic Effects of the Russia Sanctions, Foreign Trade Advisory Board of the Ministry of the Economy, North Rhine-Westphalia; Talk on the Impact of the War in Ukraine on Global Food Security, Discussion Meeting with Martin Häusling and Sarah Wiener, Members of the European Parliament. \par
     \textit{2021} \\
     Talk on Climate Clubs and the EU's Carbon Border Adjustment Mechanism Proposal, Public Climate School, Cologne. \par
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     WORK EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont WORK EXPERIENCE} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{WORK EXPERIENCE}
     Research internship at Potsdam Institute for Climate Impact Research with Prof. Lotze-Campen, Research Department ``Climate Resilience'', 2017--2018
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROGRAMMING
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont PROGRAMMING} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{PROGRAMMING}
     \textit{Proficient}: R, Git, LaTeX, Google Earth Engine \par
     \textit{Competent}: Python, GAMS, C++, JavaScript
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LANGUAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.12\textwidth}
-    {\fontfamily{phv}\selectfont LANGUAGES} \\
-\end{minipage}
-\hspace{5mm}
-\begin{minipage}[t]{0.8\textwidth}
+\begin{cvsection}{LANGUAGES}
     German (native speaker), English (bilingual proficiency)
-\end{minipage}
-\medskip
+\end{cvsection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     REFERENCES

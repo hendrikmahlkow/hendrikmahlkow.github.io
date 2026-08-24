@@ -4,3 +4,6 @@ core.2430
 
 /.quarto/
 docs/CNAME
+
+# macOS
+.DS_Store

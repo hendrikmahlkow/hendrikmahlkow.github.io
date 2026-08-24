@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"          # only the site pages; keeps CLAUDE.md/README.md off the website
 
 website:
   title: "Hendrik Mahlkow"

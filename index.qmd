@@ -78,7 +78,7 @@ Clients include the [United Nations Industrial Development Organization](https:/
 ::: {#hero-heading}
 ## Vita
 
-I am a postdoctoral researcher at [==Kiel University==](https://www.uni-kiel.de/) and a researcher at the [==Kiel Institute for the World Economy==](http://www.ifw-kiel.de/). I hold a PhD in Quantitative Economics from Kiel University. During my PhD, I was a Fulbright Scholar at the ==University of California, Berkeley==.
+I am a postdoctoral researcher at [==Kiel University==](https://www.uni-kiel.de/) and deputy head of the Trade Policy research group at the [==Kiel Institute for the World Economy==](http://www.ifw-kiel.de/). I hold a PhD in Quantitative Economics from Kiel University. During my PhD, I was a Fulbright Scholar at the ==University of California, Berkeley==.
 
 [Download CV](https://www.hendrikmahlkow.com/files/CV.pdf)
 :::
