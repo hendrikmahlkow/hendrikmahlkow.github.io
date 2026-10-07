@@ -6,6 +6,7 @@ project:
   resources:           # copied into docs/ on every render (the render clears docs/)
     - files/**
     - images/**
+    - zoom/**          # short link hendrikmahlkow.com/zoom (static redirect page)
 
 website:
   title: "Hendrik Mahlkow"
